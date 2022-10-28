@@ -1,0 +1,92 @@
+concept_PzKpfw_II<-sc_node_not_relation;;
+concept_PzKpfw_II => nrel_main_idtf: [легкий танк PzKpfw II](*<- lang_ru;;*);;
+concept_PzKpfw_II=> nrel_main_idtf: [PzKpfw II light tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_II;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [PzKpfw II (сокр. от Panzerkampfwagen II), Sd.Kfz. 121 или Т-II — немецкий лёгкий танк](*<- lang_ru;;*);;
+
+	        -> [PzKpfw II (socr. from Panzerkampfwagen II), Sd.Kfz. 121 or T-II - German light tank](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(легкий танк PzKpfw II)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(PzKpfw II light tank)](*<- lang_en;;*);;
+*);;
+
+concept_PzKpfw_II<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(легкий танк PzKpfw II)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_light_tanks/PzKpfw_II.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_II;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Разработан в 1934 году. В различных модификациях производился до 1943 года. В начале Второй мировой войны такие танки составляли 
+            38 процентов танкового парка вермахта. Первые модификации Pz.Kpfw. II в боях оказались слабее по вооружению и бронированию практически 
+            всех танков аналогичного класса: польских 7TP, французских R35 и H35, чешских LT vz.38, советских Т-26 и БТ. Начиная с 1938 года, 
+            модификации Pz.Kpfw. II Ausf. C существенно превосходили по бронированию лёгкие танки аналогичного класса: польские 7TP, советские Т-26 и БТ. 
+            Лишь в 1942 году их вывели из состава танковых полков и частично использовали либо в штурмовых артиллерийских бригадах, либо на второстепенных 
+            участках фронта. Шасси танка Pz.Kpfw. II было выпущено в количестве более 3500 штук вместе с собственно танками.](*<- lang_ru;;*);;
+
+            -> [Developed in 1934. It was produced in various modifications until 1943. At the beginning of the Second World War, such tanks made up 
+            38 percent of the Wehrmacht tank fleet. The first modifications of Pz.Kpfw. II in battles turned out to be weaker in armament and armor of 
+            almost all tanks of the same class: Polish 7TP, French R35 and H35, Czech LT vz.38, Soviet T-26 and BT. Since 1938, modifications of 
+            Pz.Kpfw. II Ausf. C was significantly superior in armor to light tanks of a similar class: Polish 7TP, Soviet T-26 and BT. Only in 1942 
+            they were withdrawn from tank regiments and partially used either in assault artillery brigades or in secondary sectors of the front. The 
+            chassis of the tank Pz.Kpfw. II was produced in an amount of more than 3,500 pieces along with the actual tanks.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(легкий танк PzKpfw II)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfw II light tank)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_II;;
+    =>nrel_using_constants:{
+    	concept_PzKpfw_II_tank_body;
+        concept_2_cm_KwK_30_cannon;
+        concept_support_roller
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка была такова: 
+                бронирование <b><sc_element sys_idtf="concept_PzKpfw_II_tank_body">(корпус танка PzKpfw II)</b>,
+                вооружение<b><sc_element sys_idtf="concept_2_cm_KwK_30_cannon">(пушка 2 cm KwK 30)</b>,
+                двигатель(HL 62 TR производства фирмы «Майбах», имевший рабочий объём 6191 см³ и развивавший максимальную мощность в 140 л.с. при 3000 об/мин.),
+                ходовая(ходовая часть состояла из шести <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> малого диаметра, 
+                которые были сгруппированы в три тележки на один борт.)](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank was as follows: 
+                armoring<b><sc_element sys_idtf="concept_PzKpfw_II_tank_body">(PzKpfw II tank body)</b>,
+                armament<b><sc_element sys_idtf="concept_2_cm_KwK_30_cannon">(2 cm KwK 30 cannon)</b>,
+                engine(HL 62 TR manufactured by Maybach, which had a working volume of 6191 cm3 and developed a maximum power of 140 hp at 3000 rpm.),
+                running gear(the undercarriage consisted of six small diameter <b><sc_element sys_idtf="concept_support_roller">support rollers</b>, 
+                which were grouped into three bogies on one side.)](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(легкий танк PzKpfw II)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfw II light tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_PzKpfw_II=>nrel_elements:
+concept_PzKpfw_II_tank_body;
+concept_2_cm_KwK_30_cannon;;
+
+concept_PzKpfw_II
+<-weight_8_9_t;
+<-length_4_8;
+<-width_2_2;
+<-height_1_9;
+<-crew_3;
+<-speed_40_highway;;
+

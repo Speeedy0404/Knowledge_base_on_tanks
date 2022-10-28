@@ -1,0 +1,95 @@
+concept_A7VU_heavy_tank<-sc_node_not_relation;;
+concept_A7VU_heavy_tank => nrel_main_idtf: [тяжёлый танк А7VU](*<- lang_ru;;*);;
+concept_A7VU_heavy_tank=> nrel_main_idtf: [A7VU heavy tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_A7VU_heavy_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Танк А7VU - германский тяжёлый танк времён Первой мировой войны. 
+            Разработан инженером в транспортном отделе Главного управления германской армии Йозефом Фолмером.](*<- lang_ru;;*);;
+
+	        -> [The A7VU tank is a German heavy tank of the First World War. 
+            Designed by Josef Folmer, an engineer in the transport department of the Main Directorate of the German Army.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(танк А7VU)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(A7VU heavy tank](*<- lang_en;;*);;
+*);;
+
+concept_A7VU_heavy_tank<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(тяжёлый танк А7VU)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_heavy_tanks/A7VU.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_A7VU_heavy_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Как можно догадаться, работы развернулись не на пустом месте. Летом 1917 года уже проходил ходовые испытания прототип 
+            танка A7V, а в производстве находилось несколько "универсальных" шасси, по мнению немецких генералов одинаково пригодных как для танков,
+             так и для тракторов.За основу при проектировании было выбрано шасси танка A7V с заводским номером 524. Доработок пришлось провести достаточно много.
+              Сравнительно с A7V его "ромбовидный" собрат смотрелся менее массивно и казалось, что путь был выбран правильно. На самом же деле A7VU обладал ещё 
+              большим количеством недостатков.12 сентября 1918 годаСтавка распорядилась прекратить работы по проекту, и единственный опытный экземпляр танка 
+              Германии периода Первой мировой войны A7VU был разобран.](*<- lang_ru;;*);;
+
+            -> [As you might guess, the work did not unfold from scratch. In the summer of 1917, a prototype of the A7V tank was already 
+            undergoing sea trials, and several "universal" chassis were in production, according to German generals, equally suitable for both 
+            tanks and tractors.The chassis of the A7V tank with the factory number 524 was chosen as the basis for the design. A lot of improvements
+             had to be carried out. Compared to the A7V, its "diamond-shaped" counterpart looked less massive and it seemed that the path was chosen 
+             correctly. In fact, the A7VU had even more disadvantages.On September 12, 1918, the exhibition ordered to stop work on the project, and 
+             the only prototype of the German tank of the period of the First World War A7VU was dismantled.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(тяжёлый танк А7VU)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(A7VU heavy tank)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_A7VU_heavy_tank;;
+    =>nrel_using_constants:{
+    	concept_A7VU_tank_body;
+        concept_57_mm_Maxim_Nordenfeldt_capon_cannon;
+        concept_Daimler_engine;
+        concept_chassis_A7VU
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка была такова: 
+                бронирование <b><sc_element sys_idtf="concept_A7VU_tank_body">(корпус танка А7VU)</b>,
+                вооружение<b><sc_element sys_idtf="concept_57_mm_Maxim_Nordenfeldt_capon_cannon">(57-мм капонирнивая пушка Максима Норденфельдта)</b>,
+                двигатель<b><sc_element sys_idtf="concept_Daimler_engine">(фирмы "Даймлер")</b>,
+                ходовая<b><sc_element sys_idtf="concept_chassis_A7VU">(ходовая часть А7VU)</b>](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank was as follows: 
+                armoring<b><sc_element sys_idtf="concept_A7VU_tank_body">(A7VU tank body)</b>,
+                armament<b><sc_element sys_idtf="concept_57_mm_Maxim_Nordenfeldt_capon_cannon">(57 mm Maxim Nordenfeldt capon cannon)</b>,
+                engine<b><sc_element sys_idtf="concept_Daimler_engine">(Daimler firms)</b>,
+                running gear<b><sc_element sys_idtf="concept_chassis_A7VU">(chassis A7VU)</b>](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(тяжёлый танк А7VU)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(A7VU heavy tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_A7VU_heavy_tank=>nrel_elements:
+concept_A7VU_tank_body;
+concept_57_mm_Maxim_Nordenfeldt_capon_cannon;
+concept_Daimler_engine;
+concept_chassis_A7VU;;
+
+concept_A7VU_heavy_tank
+<-weight_40_t;
+<-length_8_3;
+<-width_4_6;
+<-height_3_2;
+<-crew_7;
+<-speed_8_7_highway;
+<-speed_4_5_country;;

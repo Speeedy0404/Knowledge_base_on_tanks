@@ -1,0 +1,33 @@
+concept_cannon<-sc_node_not_relation;;
+concept_cannon => nrel_main_idtf: [орудие](*<- lang_ru;;*);;
+concept_cannon => nrel_main_idtf: [cannon](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_cannon;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Основным вооружением танка обычно является пушка, размещающаяся в башне, с целью обеспечить 
+            ему круговой сектор обстрела, что является одной из определяющих особенностей танка.](*<- lang_ru;;*);;
+	        -> [The main armament of a tank is usually a cannon located in the turret, in order to provide 
+            it with a circular firing sector, which is one of the defining features of the tank.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(орудие)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(cannon)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_cannon;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Вместе с тем, существуют и исключения. Некоторые танки были вооружены пушками, расположенными в корпусе и имевшими ограниченные углы обстрела; так же был танк имеющий жёстко закреплённую в корпусе пушку, наводившуюся поворотом танка и наклоном его корпуса при помощи специальной подвески.](*<- lang_ru;;*);;
+            -> [However, there are exceptions. Some tanks were armed with guns located in the hull and had limited firing angles; there was also a tank with a rigidly fixed cannon in the hull, which was guided by turning the tank and tilting its hull with a special suspension.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(орудие)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(cannon)](*<- lang_en;;*);;
+*);;
+
+concept_cannon=>nrel_inclusion:concept_57_mm_Maxim_Nordenfeldt_capon_cannon;concept_77_mm_capon_guns;concept_2_cm_KwK_30_cannon;concept_gun_5_cm_KwK_39;;
+

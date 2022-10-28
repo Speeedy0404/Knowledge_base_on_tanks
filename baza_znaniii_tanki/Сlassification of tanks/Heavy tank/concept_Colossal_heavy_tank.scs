@@ -1,0 +1,92 @@
+concept_Colossal_heavy_tank<-sc_node_not_relation;;
+concept_Colossal_heavy_tank => nrel_main_idtf: [тяжелый танк «Колоссаль»](*<- lang_ru;;*);;
+concept_Colossal_heavy_tank=> nrel_main_idtf: [Colossal heavy tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_Colossal_heavy_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Тяжелый танк «Колоссаль» -  немецкий сверхтяжёлый танк периода Первой мировой войны.](*<- lang_ru;;*);;
+
+	        -> [The Colossal heavy tank is a German super-heavy tank of the period of the First World War.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(тяжелый танк «Колоссаль»)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(Colossal heavy tank](*<- lang_en;;*);;
+*);;
+
+concept_Colossal_heavy_tank<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(тяжелый танк «Колоссаль»)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_heavy_tanks/Colossal_heavy_tank.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_Colossal_heavy_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Отличался огромными размерами и весом, из-за чего представлял собой скорее не танк, а "подвижной форт".
+             К концу войны ни один танк так и не был закончен полностью, а незаконченный первый экземпляр танка и детали 
+             второго сразу же по окончании войны были уничтожены.Разумеется, при проектировании «Колоссаль» не обошлось без влияния 
+             британских ромбовидных танков. Они не обладали высокой подвижностью, но несли тяжелое вооружение и были способны легко 
+             преодолевать рвы и траншеи шириной до 3 метров. Отсюда появилась компоновка с удлиненным корпусом и полностью охватывающими 
+             его гусеницами, а также размещение вооружения в бортовых <b><sc_element sys_idtf="concept_sponson">спонсонах</b>. В целом же, компоновка «Колоссаль» получилась оригинальной,
+             с размещением экипажа в два яруса разделение корпуса на четыре отсека.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [It was distinguished by its huge size and weight, which is why it was rather not a tank, but a "mobile fort". 
+            By the end of the war, not a single tank was completely finished, and the unfinished first copy of the tank and the 
+            details of the second one were destroyed immediately after the end of the war.Of course, when designing the Colossal, 
+            it was not without the influence of British diamond-shaped tanks. They did not have high mobility, but carried heavy weapons
+            and were able to easily overcome ditches and trenches up to 3 meters wide. Hence the layout with an elongated hull and tracks 
+            completely covering it, as well as the placement of weapons in the onboard <b><sc_element sys_idtf="concept_sponson">sponsons</b>. In general, the Colossal layout turned out
+            to be original, with the placement of the crew in two tiers, the division of the hull into four compartments.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(тяжелый танк «Колоссаль»)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(Colossal heavy tank)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_Colossal_heavy_tank;;
+    =>nrel_using_constants:{
+    	concept_Colossal_tank_body;
+        concept_77_mm_capon_guns;
+        concept_chassis_Colossal
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка была такова: 
+                бронирование <b><sc_element sys_idtf="concept_Colossal_tank_body">(корпус танка «Колоссаль»)</b>,
+                вооружение<b><sc_element sys_idtf="concept_77_mm_capon_guns">(77-мм капонирные пушки)</b>,
+                двигатель(два мотора «Даймлер» мощностью 650 л. с.),
+                ходовая<b><sc_element sys_idtf="concept_chassis_Colossal">(ходовая часть «Колоссаль»)</b>](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank was as follows: 
+                armoring<b><sc_element sys_idtf="concept_Colossal_tank_body">(Colossal tank body)</b>,
+                armament<b><sc_element sys_idtf="concept_77_mm_capon_guns">(77-mm capon guns)</b>,
+                engine(two Daimler engines with a capacity of 650 hp.),
+                running gear<b><sc_element sys_idtf="concept_chassis_Colossal">(chassis Colossal)</b>](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(тяжелый танк «Колоссаль»)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(Colossal heavy tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_Colossal_heavy_tank=>nrel_elements:
+concept_Colossal_tank_body;
+concept_77_mm_capon_guns;
+concept_chassis_Colossal;;
+
+concept_Colossal_heavy_tank
+<-weight_150_t;
+<-length_12_8;
+<-width_5_9;
+<-height_3_3;
+<-crew_22;
+<-speed_7_5_highway;;

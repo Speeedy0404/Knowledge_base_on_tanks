@@ -1,0 +1,33 @@
+concept_77_mm_capon_guns<-sc_node_not_relation;;
+concept_77_mm_capon_guns => nrel_main_idtf: [77-мм капонирные пушки](*<- lang_ru;;*);;
+concept_77_mm_capon_guns => nrel_main_idtf: [77-mm capon guns](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_77_mm_capon_guns;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [77-мм капонирные пушки - пушки с полуавтоматическим затвором.](*<- lang_ru;;*);;
+
+            -> [77 mm capon cannons - guns with semi-automatic shutter.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(77-мм капонирные пушки)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(77-mm capon guns)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_77_mm_capon_guns;;
+
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Качающаяся часть орудия крепилась на поворотной тумбе с полуцилиндрическим щитом и ограждением казенной части. 
+            Сиденье наводчика находилось слева от ограждения. Для наводки он использовал <b><sc_element sys_idtf="concept_telescopic_sight">телескопический прицел</b> и соосные маховики.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The swinging part of the gun was mounted on a pivoting pedestal with a semi-cylindrical shield and a breech guard. 
+            The gunner's seat was to the left of the fence. For guidance, he used a <b><sc_element sys_idtf="concept_telescopic_sight">telescopic sight</b> and coaxial flywheels.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(77-мм капонирные пушки)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(77-mm capon guns)](*<- lang_en;;*);;
+*);;

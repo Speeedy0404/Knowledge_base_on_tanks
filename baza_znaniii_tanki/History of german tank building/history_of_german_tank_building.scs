@@ -1,0 +1,85 @@
+concept_history_of_german_tank_building<-sc_node_not_relation;;
+concept_history_of_german_tank_building => nrel_main_idtf: [история германского танкостроение](*<- lang_ru;;*);;
+concept_history_of_german_tank_building => nrel_main_idtf: [history of german tank building](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_history_of_german_tank_building;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Идея создания первых танков появилась в Германии задолго до начала Первой мировой войны.](*<- lang_ru;;*);;
+	        -> [The idea of creating the first tanks appeared in Germany long before the outbreak of the First World War.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(история германского танкостроение)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(history of german tank building](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_history_of_german_tank_building;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Так, еще в 1911 г. обер-лейтенант австро-венгерской армии Гюнтер Бурштын предложил проект гусеничной 
+            бронированной машины под названием «Моторгешутц».](*<- lang_ru;;*);;
+
+            -> [So, back in 1911, Lieutenant-General of the Austro-Hungarian army Gunther Burshtyn proposed a project 
+            of a tracked armored vehicle called "Motorgeschutz".](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(история германского танкостроение)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(history of german tank building)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_history_of_german_tank_building;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Еще в 1911-1912 гг. Германия могла получить превосходный для своего времени танк. 
+            Однако хотя по конструкции «Моторгешутц» был намного прогрессивнее первых немецких машин, 
+            которые появились несколькими годами позже, замысел Бурштына, как и многие другие проекты 
+            подобных машин для нужд армии, отвергли как в австрийских, так и в германских военных ведомствах.](*<- lang_ru;;*);;
+
+            -> [Back in 1911-1912 . Germany could get an excellent tank for its time. However,
+             although the design of the "Motorgeschutz" was much more progressive than the first 
+             German machines that appeared a few years later, Burshtyn's idea, like many other projects 
+             of similar machines for the needs of the army, was rejected by both the Austrian and German military departments.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(история германского танкостроение)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(history of german tank building)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_history_of_german_tank_building;;
+    =>nrel_using_constants:{
+    	concept_tank_building_in_the_First_World_War;
+        concept_the_pre_war_period;
+        concept_tank_building_in_World_War_II;
+        concept_modern_tank_building
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В история германского танкостроение можно расмотреть: 
+            <b><sc_element sys_idtf="concept_tank_building_in_the_First_World_War">танкостроение в Первую мировую войну(1916-1921)</b>, 
+            <b><sc_element sys_idtf="concept_the_pre_war_period">предвоенный период(1930-1936)</b>,
+            <b><sc_element sys_idtf="concept_tank_building_in_World_War_II">танкостроение во Второй мировой войне</b>,
+            <b><sc_element sys_idtf="concept_modern_tank_building">современное танкостроение</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [In the history of German tank construction, one can consider: 
+            <b><sc_element sys_idtf="concept_tank_building_in_the_First_World_War">tank construction in the First World War(1916-1921)</b>,
+            <b><sc_element sys_idtf="concept_the_pre_war_period">pre-war period(1930-1936)</b>,
+            <b><sc_element sys_idtf="concept_tank_building_in_World_War_II">tank construction in the Second World War</b>, 
+            <b><sc_element sys_idtf="concept_modern_tank_building">modern tank construction</b>.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(история германского танкостроение)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(history of german tank building)](*<- lang_en;;*);;
+*);;
+
+
+concept_history_of_german_tank_building=>nrel_inclusion:
+concept_tank_building_in_the_First_World_War;
+concept_the_pre_war_period;
+concept_tank_building_in_World_War_II;
+concept_modern_tank_building;;
+

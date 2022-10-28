@@ -1,0 +1,56 @@
+concept_chassis_LK_I<-sc_node_not_relation;;
+concept_chassis_LK_I => nrel_main_idtf: [ходовая часть LK-I](*<- lang_ru;;*);;
+concept_chassis_LK_I => nrel_main_idtf: [chassis LK-I](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_LK_I;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть LK_I - собиралось на особой раме. Ходовая часть каждого борта заключалась между двумя продольными 
+            параллельными стенками, связанными поперечными перемычками. Между ними к раме подвешивались на винтовых цилиндрических 
+            пружинах ходовые тележки.](*<- lang_ru;;*);;
+
+	        -> [Chassis LK_I - assembled on a special frame. The undercarriage of each side was located between two longitudinal 
+            parallel walls connected by transverse lintels. Between them, running trolleys were suspended from the frame on helical 
+            cylindrical springs.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть LK-I)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis LK-I)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_LK_I;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [На борт приходилось пять тележек с четырьмя <b><sc_element sys_idtf="concept_support_roller">опорными катками </b> каждая. Еще одна тележка жестко крепилась впереди - ее катки 
+            служили упорами для восходящей ветви гусеницы. Жестко закреплялась также ось заднего ведущего колеса, которое имело радиус 217 мм 
+            и 12 зубьев. Направляющее колесо было приподнято над опорной поверхностью, а его ось снабжена винтовым механизмом регулировки натяжения 
+            гусениц. Продольный профиль гусеницы рассчитывался так, чтобы при движении по твердой дороге длина опорной поверхности составляла 2.8 м, 
+            на мягком грунте несколько увеличивалась, а при переходе через окопы достигала 5 м. Приподнятая передняя часть гусеницы выступала впереди 
+            корпуса. Таким образом предполагалось совместить поворотливость на твердом грунте с высокой проходимостью. Конструкция гусеницы повторяла 
+            A7V, но в уменьшенном варианте.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [There were five trolleys with four <b><sc_element sys_idtf="concept_support_roller">support rollers</b> each on board. Another trolley was rigidly attached in front - its rollers served 
+            as stops for the ascending branch of the caterpillar. The axle of the rear driving wheel, which had a radius of 217 mm and 12 teeth, was 
+            also rigidly fixed. The guide wheel was raised above the support surface, and its axis was equipped with a screw mechanism for adjusting 
+            the tension of the tracks. The longitudinal profile of the caterpillar was calculated so that when driving on a hard road, the length of 
+            the support surface was 2.8 m, on soft ground it increased slightly, and when crossing trenches it reached 5 m. The raised front part of 
+            the caterpillar protruded in front of the body. Thus, it was supposed to combine agility on solid ground with high cross-country ability. 
+            The design of the caterpillar repeated the A7V, but in a reduced version.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть LK-I)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(chassis LK-I)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_LK_I
+<-width_shoe_250;
+<-thickness_shoe_7;
+<-width_rails_80;
+<-height_rails_115;
+<-[Шаг <b><sc_element sys_idtf="concept_shoe">башмака</b> - 140 мм](* <- lang_ru;; => nrel_format: format_html;; *);
+<-[Количество <b><sc_element sys_idtf="concept_shoe">башмаков</b> - 74](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+

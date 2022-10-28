@@ -1,0 +1,41 @@
+concept_support_roller<-sc_node_not_relation;;
+concept_support_roller => nrel_main_idtf: [опорный каток](*<- lang_ru;;*);;
+concept_support_roller => nrel_main_idtf: [support roller](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_support_roller;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Опорный каток — элемент гусеничного движителя, являющийся подвижной опорой гусеничной или полугусеничной машины (танка, трактора и так далее) на гусеничных лентах.](*<- lang_ru;;*);;
+
+	        -> [A support roller is an element of a caterpillar mover, which is a movable support of a tracked or semi-tracked vehicle (tank, tractor, etc.) on crawler belts.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(опорный каток)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(support roller)](*<- lang_en;;*);;
+*);;
+
+concept_support_roller<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(опорный каток)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/support_roller.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_support_roller;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [При достаточно большом диаметре может также выполнять функции <b><sc_element sys_idtf="concept_supporting_rink">поддерживающего катка</b>, неся верхнюю ветвь гусеницы. В конструкции колёсно-гусеничных танков со съёмными гусеничными лентами опорные катки также выполняли роль колёс для передвижения на колёсном ходу.Монтируются опорные катки на подшипниках на осях, которые связываются с корпусом через подвеску. На быстроходных гусеничных машинах, с целью смягчения ударов о гусеницу во время движения по пересечённой местности, опорные катки обычно делают обрезиненными.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [With a sufficiently large diameter, it can also perform the functions of a <b><sc_element sys_idtf="concept_supporting_rink">supporting rink</b>, carrying the upper branch of the caterpillar . In the design of wheeled tracked tanks with removable track belts, the support rollers also served as wheels for wheeled movement.The support rollers are mounted on bearings on the axles, which are connected to the body through a suspension. On high-speed tracked vehicles, in order to mitigate impacts on the caterpillar while driving over rough terrain, the support rollers are usually made rubberized.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(опорный каток)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(support roller)](*<- lang_en;;*);;
+*);;
+

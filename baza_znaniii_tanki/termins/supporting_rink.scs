@@ -1,0 +1,41 @@
+concept_supporting_rink<-sc_node_not_relation;;
+concept_supporting_rink => nrel_main_idtf: [поддерживающий каток](*<- lang_ru;;*);;
+concept_supporting_rink => nrel_main_idtf: [supporting rink](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_supporting_rink;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Поддерживающий каток — элемент гусеничного движителя, предназначенный для поддержания верхней ветви гусеничной ленты и облегчения её натяжения, уменьшающий её провисание; использование большего количества опорных катков уменьшает необходимую для натяжения гусеницы силу.](*<- lang_ru;;*);;
+
+	        -> [The supporting roller is an element of the caterpillar mover designed to support the upper branch of the caterpillar belt and facilitate its tension, reducing its sagging; the use of more support rollers reduces the force necessary for the caterpillar tension.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(поддерживающий каток)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(supporting rink)](*<- lang_en;;*);;
+*);;
+
+concept_supporting_rink<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(поддерживающий каток)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/supporting_rink.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_supporting_rink;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Также поддерживающие катки исключают удары гусеничной ленты о надгусеничную полку и придают обводу гусеницы оптимальную форму, за счёт чего снижаются потери мощности в движителе.Монтируются поддерживающие катки на подшипниках на присоединённых к корпусу кронштейнах специальной конструкции.](*<- lang_ru;;*);;
+
+            -> [Also, the supporting rollers exclude the impacts of the track belt on the over-track shelf and give the track an optimal shape, thereby reducing power losses in the propulsion.The supporting rollers are mounted on bearings on brackets of special design attached to the housing.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(поддерживающий каток)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(supporting rink)](*<- lang_en;;*);;
+*);;
+

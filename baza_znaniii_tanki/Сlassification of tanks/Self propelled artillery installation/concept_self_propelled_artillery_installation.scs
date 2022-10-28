@@ -1,0 +1,50 @@
+concept_self_propelled_artillery_installation<-sc_node_not_relation;;
+concept_self_propelled_artillery_installation => nrel_main_idtf: [сау](*<- lang_ru;;*);;
+concept_self_propelled_artillery_installation=> nrel_main_idtf: [self propelled_artillery installation](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_self_propelled_artillery_installation;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Самоходная артиллерийская установка - боевая машина, представляющая собой артиллерийское орудие, смонтированное на самодвижущемся 
+                (самоходном) шасси и предназначенное для стрельбы с закрытых позиций и непосредственной огневой поддержки танков и пехоты в бою.](*<- lang_ru;;*);;
+	        -> [Self-propelled artillery installation - a combat vehicle, which is an artillery piece mounted on a self-propelled 
+                (self-propelled) chassis and designed for firing from closed positions and direct fire support of tanks and infantry in battle.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(сау)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(self propelled_artillery installation](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_self_propelled_artillery_installation;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [К самоходно-артиллерийским установкам следует относить все боевые бронированные самоходные машины со ствольным артиллерийским вооружением.](*<- lang_ru;;*);;
+            -> [Self-propelled artillery installations should include all armored self-propelled combat vehicles with barrel artillery armament.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(сау)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(self propelled_artillery installation)](*<- lang_en;;*);;
+*);;
+
+
+concept_self_propelled_artillery_installation=>nrel_inclusion:...;;
+
+concept_self_propelled_artillery_installation=>nrel_functions:
+[Огневая поддержка танков и пехоты в бою.];;
+
+
+
+
+
+
+
+
+
+
+
+

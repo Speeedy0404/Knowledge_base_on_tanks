@@ -1,0 +1,42 @@
+concept_chassis_Colossal<-sc_node_not_relation;;
+concept_chassis_Colossal => nrel_main_idtf: [ходовая часть «Колоссаль»](*<- lang_ru;;*);;
+concept_chassis_Colossal => nrel_main_idtf: [chassis Colossal](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_Colossal;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть «Колоссаль» -  отличалась оригинальностью: катки с ребордами по типу железнодорожных 
+            крепились не к корпусу танка, а к тракам гусениц. Корпус по бокам был охвачен рельсовыми направляющими,
+             по которым и "обкатывались" гусеницы.](*<- lang_ru;;*);;
+
+	        -> [The chassis of the Colossal was distinguished by originality: rollers with rail-type ridges were attached 
+            not to the tank body, but to the tracks of the tracks. The body on the sides was covered by rail guides, along 
+            which the tracks were "run-in".](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть «Колоссаль»)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis Colossal)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_Colossal;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Траки собирались с помощью болтов и заклепок. Ведущее колесо — заднего расположения.
+             Верхние ветви гусениц с передними и задними нисходящими ветвями прикрывались бронекрышей, 
+             переходившей в изогнутые бронеэкраны.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The tracks were assembled using bolts and rivets. The driving wheel is of the rear location. 
+            The upper branches of the tracks with front and rear descending branches were covered with armored roofs,
+             which turned into curved armored screens.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть «Колоссаль»)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(chassis Colossal)](*<- lang_en;;*);;
+*);;
+
+
+
+

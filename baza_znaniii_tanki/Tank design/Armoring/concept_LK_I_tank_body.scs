@@ -1,0 +1,49 @@
+concept_LK_I_tank_body<-sc_node_not_relation;;
+concept_LK_I_tank_body => nrel_main_idtf: [корпус танка LK-I(II)](*<- lang_ru;;*);;
+concept_LK_I_tank_body => nrel_main_idtf: [LK-I(II) tank body](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_LK_I_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка LK-I(II) - клёпаной и собиралась на металлическом каркасе. 
+            Броневой корпус из прямых листов собирался на каркасе с помощью клепки.](*<- lang_ru;;*);;
+            
+	        -> [The body of the LK-I(II) tank was riveted and assembled on a metal frame. 
+            The armored body of straight sheets was assembled on the frame using riveting.](*<- lang_en;;*);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус танка LK-I(II))](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(LK-I(II) tank body)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_LK_I_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Окно механика-водителя прикрывалось горизонтальной двустворчатой крышкой, в нижней створке которой были 
+            прорезаны пять смотровых щелей. Для доступа к двигателю с обоих бортов и на крыше в носовой части корпуса были 
+            сделаны прямоугольные люки. Радиатор был защищен передними жалюзи с 6 створками. Толщина брони в лобовой части 
+            корпуса составила 14 мм, борта, крыш и днище защищались 8-мм бронёй.](*<- lang_ru;;*);;
+
+            -> [The driver's window was covered with a horizontal double-leaf lid, in the lower sash of which five viewing slots were cut.
+             Rectangular hatches were made to access the engine from both sides and on the roof in the bow of the hull. The radiator 
+             was protected by front blinds with 6 shutters. The thickness of the armor in the frontal part of the hull was 14 mm, 
+             the sides, roofs and bottom were protected by 8 mm armor.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус танка LK-I(II))](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(LK-I(II) tank body)](*<- lang_en;;*);;
+*);;
+
+
+concept_LK_I_tank_body
+<-steel;
+<-the_forehead_of_the_body_14;
+<-hull_side_8;
+<-hull_feed_8;
+<-the_forehead_of_the_tower_8;
+<-side_of_the_tower_8;
+<-tower_feed_8;;

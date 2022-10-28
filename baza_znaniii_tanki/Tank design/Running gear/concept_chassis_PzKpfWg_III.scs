@@ -1,0 +1,57 @@
+concept_chassis_PzKpfWg_III<-sc_node_not_relation;;
+concept_chassis_PzKpfWg_III => nrel_main_idtf: [ходовая часть PzKpfWg III](*<- lang_ru;;*);;
+concept_chassis_PzKpfWg_III => nrel_main_idtf: [chassis PzKpfWg III](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_PzKpfWg_III;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть PzKpfWg III отличалась значительным разнообразием.](*<- lang_ru;;*);;
+
+	        -> [The chassis of the PzKpfWg III was distinguished by a significant variety.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть PzKpfWg III)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis PzKpfWg III)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_PzKpfWg_III<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(ходовая часть PzKpfWg III)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_running_gear/chassis_PzKpfWg_III.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_PzKpfWg_III;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Общие черты все же были — традиционное для немецкого танкостроения расположение ведущих колёс спереди, 
+            а <b><sc_element sys_idtf="concept_sloth">ленивцев</b> сзади, наличие <b><sc_element sys_idtf="concept_supporting_rink">поддерживающих катков</b>. 
+            <b><sc_element sys_idtf="concept_support_roller">Опорные катки</b> были обрезинены. Модификации (нем. «Ausfuehrung» или «Ausf.») 
+            различались количеством катков, их размерами, амортизирующей конструкцией. В ходе эволюции были использованы три принципиально 
+            разных варианта амортизации.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [There were still common features - the traditional arrangement of the driving wheels in front for German tank construction, 
+            and the <b><sc_element sys_idtf="concept_sloth">sloth</b> in the back, the presence of 
+            <b><sc_element sys_idtf="concept_supporting_rink">supporting rink</b>. The <b><sc_element sys_idtf="concept_support_roller">support rollers</b> were rubberized. Modifications 
+            (German "Ausfuehrung" or "Ausf.") differed in the number of rollers, their sizes, and shock-absorbing design. In the course of evolution, 
+            three fundamentally different depreciation options were used.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть PzKpfWg III)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(chassis PzKpfWg III)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_PzKpfWg_III=>nrel_modifications:
+[Ausf.A: единственная модификация с пружинной подвеской (по пружине на каждый каток), двумя 
+<b><sc_element sys_idtf="concept_supporting_rink">поддерживающими катками</b> (на всех остальных — три), 
+пятью <b><sc_element sys_idtf="concept_support_roller">опорными катками</b> увеличенного диаметра.](* <- lang_ru;; => nrel_format: format_html;; *);
+[Ausf.B, C, D: восемь <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> уменьшенного размера, подвеска рессорная.](* <- lang_ru;; => nrel_format: format_html;; *);
+[У Ausf.B две полуэллиптические рессоры опирались концами на катки, сблокированные попарно];
+[Ausf.C, D обладали уже тремя рессорами, причём у последнего рессоры располагались под углом.];
+[Ausf.E, F, G, H, J, K, L, M, N: подвеска торсионная, шесть <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> среднего размера. Модификации отличались друг от друга, в основном, размерами катков и резинового бандажа, конструкцией и рисунком ведущего колеса и <b><sc_element sys_idtf="concept_sloth">ленивца</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;

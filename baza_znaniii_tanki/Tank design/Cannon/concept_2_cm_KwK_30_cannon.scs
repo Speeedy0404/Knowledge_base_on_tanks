@@ -1,0 +1,60 @@
+concept_2_cm_KwK_30_cannon<-sc_node_not_relation;;
+concept_2_cm_KwK_30_cannon => nrel_main_idtf: [пушка 2 cm KwK 30](*<- lang_ru;;*);;
+concept_2_cm_KwK_30_cannon => nrel_main_idtf: [2 cm KwK 30 cannon](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_2_cm_KwK_30_cannon;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Пушка 2 cm KwK 30 -  германская автоматическая 20-мм танковая пушка, использовавшаяся главным образом в качестве основного 
+            вооружения лёгкого танка PzKpfw II. Оснащённые ею машины принимали участие в боевых действиях в гражданской войне в Испании и во 
+            Второй мировой войне.](*<- lang_ru;;*);;
+
+	        -> [The 2 cm KwK 30 cannon is a German automatic 20 mm tank cannon, used mainly as the main armament of the PzKpfw II light tank. 
+            The vehicles equipped with it took part in combat operations in the Spanish Civil War and in World War II.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(пушка 2 cm KwK 30)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(2 cm KwK 30 cannon)](*<- lang_en;;*);;
+*);;
+
+concept_2_cm_KwK_30_cannon<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(пушка 2 cm KwK 30)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_cannon/2_cm_KwK_30_cannon.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_2_cm_KwK_30_cannon;;
+
+    <= nrel_sc_text_translation:...
+        (*
+            -> [KwK 30 послужила основой для 20 mm C/30, экспериментальной авиационной пушки, устанавливавшейся для испытаний на 
+            некоторые истребители Heinkel He 112. В авиационном варианте пушка проявила себя как превосходное оружие для атак наземных 
+            целей с воздуха в гражданской войне в Испании. Однако для люфтваффе наземные цели не считались приоритетными, поэтому на другие 
+            типы самолётов такая авиационная пушка не устанавливалась.Автоматическая пушка KwK 30 использовала боеприпасы калибра 20x138 мм. 
+            от зенитного орудия FlaK30.](*<- lang_ru;;*);;
+
+            -> [The KwK 30 served as the basis for the 20 mm C/30, an experimental aircraft gun installed for testing on some Heinkel He 112 fighters. 
+            In the aviation version, the cannon proved to be an excellent weapon for attacking ground targets from the air in the Spanish Civil War. 
+            However, for the Luftwaffe, ground targets were not considered a priority, so such an aircraft gun was not installed on other types of aircraft.
+            The KwK 30 automatic cannon used 20x138 mm ammunition . from the FlaK30 anti-aircraft gun.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(пушка 2 cm KwK 30)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(2 cm KwK 30 cannon)](*<- lang_en;;*);;
+*);;
+
+
+concept_2_cm_KwK_30_cannon
+<-barrel_length_55;
+<-rate_fire_280;
+<-fireng_range_4400;
+<-flight_speed_780;
+<-weight_63_kg;
+<-vertical_guidance_9_5_20;;

@@ -1,0 +1,43 @@
+concept_running_gear<-sc_node_not_relation;;
+concept_running_gear => nrel_main_idtf: [ходовая](*<- lang_ru;;*);;
+concept_running_gear => nrel_main_idtf: [running gear](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_running_gear;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Гусеничный движитель — движитель, в котором тяговое усилие создаётся за счёт перематывания гусеничных лент (гусениц) состоящих из отдельных звеньев — <b><sc_element sys_idtf="concept_shoe">башмаков</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+	        -> [A crawler mover is a mover in which the traction force is created by rewinding caterpillar belts (tracks) consisting of separate links - <b><sc_element sys_idtf="concept_shoe">shoe</b>.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(running gear)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_running_gear;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Гусеничный движитель состоит в общем из ведущего колеса, <b><sc_element sys_idtf="concept_support_roller">опорных катков</b>, 
+            направляющего колеса (<b><sc_element sys_idtf="concept_sloth">ленивца</b>), <b><sc_element sys_idtf="concept_supporting_rink">поддерживающих катков</b> и 
+            гусеничной ленты. В некоторых устаревших источниках гусеничные ленты называют гусеничными цепями.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The crawler mover generally consists of a driving wheel, <b><sc_element sys_idtf="concept_support_roller">support rollers</b>, a guide wheel 
+            (<b><sc_element sys_idtf="concept_sloth">sloth</b>), <b><sc_element sys_idtf="concept_supporting_rink">supporting rink</b> and a track belt. 
+            In some outdated sources, track belts are called track chains.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(running gear)](*<- lang_en;;*);;
+*);;
+
+concept_running_gear=>nrel_inclusion:
+concept_chassis_A7V;
+concept_chassis_A7VU;
+concept_chassis_Colossal;
+concept_chassis_LK_I;
+concept_chassis_LK_II;
+concept_chassis_PzKpfw_I_Ausf_A;
+concept_chassis_PzKpfWg_III;;
+

@@ -1,0 +1,70 @@
+concept_chassis_PzKpfw_I_Ausf_A<-sc_node_not_relation;;
+concept_chassis_PzKpfw_I_Ausf_A => nrel_main_idtf: [ходовая часть PzKpfw I Ausf. A](*<- lang_ru;;*);;
+concept_chassis_PzKpfw_I_Ausf_A => nrel_main_idtf: [chassis PzKpfw I Ausf. A](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_PzKpfw_I_Ausf_A;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть Pz.Kpfw.I Ausf.A применительно к одному борту состояла из: сдвоенного ведущего 
+            колеса, четырёх одиночных обрезиненных <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> диаметром 530 мм, 
+            обрезиненного <b><sc_element sys_idtf="concept_sloth">ленивца</b>, 
+            опущенного на землю и игравшего роль пятого <b><sc_element sys_idtf="concept_support_roller">опорного катка</b> 
+            и трёх обрезиненных <b><sc_element sys_idtf="concept_supporting_rink">поддерживающих катков</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+	        -> [Chassis Pz.Kpfw.I Ausf.A in relation to one side consisted of: a double driving wheel, four single 
+            rubberized <b><sc_element sys_idtf="concept_support_roller">support rollers</b> with a diameter of 530 mm, a rubberized 
+            <b><sc_element sys_idtf="concept_sloth">sloth</b> lowered to the ground and playing 
+            the role of the fifth <b><sc_element sys_idtf="concept_support_roller">support roller</b> 
+            and three rubberized <b><sc_element sys_idtf="concept_supporting_rink">support rink</b>.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis PzKpfw I Ausf. A)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_PzKpfw_I_Ausf_A;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [<b><sc_element sys_idtf="concept_support_roller">Опорные катки</b> и <b><sc_element sys_idtf="concept_sloth">ленивец</b> — литые; 
+            <b><sc_element sys_idtf="concept_support_roller">опорные катки</b> — алюминиевые, <b><sc_element sys_idtf="concept_sloth">ленивец</b> — стальной. 
+            Подвеска <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> — смешанная. 
+            Первый <b><sc_element sys_idtf="concept_support_roller">опорный каток</b> подвешен индивидуально, на балансире, соединённом с 
+            пружиной и гидравлическим амортизатором. Второй и 
+            третий <b><sc_element sys_idtf="concept_support_roller">опорные катки</b>, а также четвёртый 
+            <b><sc_element sys_idtf="concept_support_roller">опорный каток</b> и 
+            <b><sc_element sys_idtf="concept_sloth">ленивец</b> сблокированы попарно в тележках с подвеской на листовых рессорах.
+            Поскольку на Pz.Kpfw.I Ausf.B корпус танка был удлинён, а также для улучшения характеристик подвески, в неё были добавлены 
+            пятый <b><sc_element sys_idtf="concept_support_roller">опорный</b> и четвёртый 
+            <b><sc_element sys_idtf="concept_supporting_rink">поддерживающий</b> катки. Пятый 
+            <b><sc_element sys_idtf="concept_support_roller">опорный каток</b> заменил в системе подвески 
+            <b><sc_element sys_idtf="concept_sloth">ленивец</b>, который был поднят с 
+            грунта и заменён новым, меньшего диаметра и необрезиненным.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [<b><sc_element sys_idtf="concept_support_roller">Support rollers</b> and <b><sc_element sys_idtf="concept_sloth">sloth</b> - cast; 
+            <b><sc_element sys_idtf="concept_support_roller">support rollers</b> — aluminum, 
+            <b><sc_element sys_idtf="concept_sloth">sloth</b> — steel. The suspension of the 
+            <b><sc_element sys_idtf="concept_support_roller">support rollers</b> is mixed. 
+            The first <b><sc_element sys_idtf="concept_support_roller">support roller</b> is suspended individually, on a 
+            balancer connected to a spring and a hydraulic shock absorber. 
+            The second and third <b><sc_element sys_idtf="concept_support_roller">support rollers</b>, as well as the fourth 
+            <b><sc_element sys_idtf="concept_support_roller">support roller</b> and the <b><sc_element sys_idtf="concept_sloth">sloth</b> 
+            are interlocked in pairs in trolleys with 
+            suspension on leaf springs.Since on Pz.Kpfw.I Ausf.B the tank body was lengthened, and also to improve the characteristics of the suspension, 
+            a fifth <b><sc_element sys_idtf="concept_support_roller">support</b> and a fourth <b><sc_element sys_idtf="concept_supporting_rink">rink</b> 
+            rollers were added to it. The fifth <b><sc_element sys_idtf="concept_support_roller">support roller</b>  
+            was replaced in the suspension system by a <b><sc_element sys_idtf="concept_sloth">sloth</b>, 
+            which was lifted from the ground and replaced with a new, smaller diameter and non-rubberized one.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(cchassis PzKpfw I Ausf. A)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_PzKpfw_I_Ausf_A
+<-width_shoe_260;
+<-[Шаг <b><sc_element sys_idtf="concept_shoe">башмака</b> - 91 мм](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+

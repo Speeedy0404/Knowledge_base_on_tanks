@@ -1,0 +1,55 @@
+concept_PzKpfWg_III_tank_body<-sc_node_not_relation;;
+concept_PzKpfWg_III_tank_body => nrel_main_idtf: [корпус танка PzKpfWg III](*<- lang_ru;;*);;
+concept_PzKpfWg_III_tank_body => nrel_main_idtf: [PzKpfWg III tank body](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfWg_III_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка PzKpfWg III -  сваривался из катаных броневых листов хромоникелевой стали с поверхностной цементацией. 
+            Отдельные части корпуса соединялись болтами и угольниками.](*<- lang_ru;;*);;
+            
+	        -> [The body of the PzKpfWg III tank was welded from rolled armor plates of chromium-nickel steel with surface cementation. 
+            Individual parts of the body were connected by bolts and squares.](*<- lang_en;;*);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус танка PzKpfWg III)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(PzKpfWg III tank body)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfWg_III_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [По обе стороны корпуса над вторым и третьим опорными катками в танках модификаций Е — L находились эвакуационные люки. 
+            На крыше моторного отделения имелись четыре люка — два больших и два малых — для доступа к агрегатам силовой установки. 
+            В днище корпуса имелись люки для спуска воды, бензина и масла и для доступа к двигателю и коробке передач. В передней верхней 
+            части бортов корпуса находились лючки для наблюдения со стёклами триплекс, закрывавшиеся броневыми заслонками (у танков Ausf.A — D 
+            лючок имелся только слева — у места механика-водителя).Башня — шестигранная, сварная, размещалась симметрично относительно продольной оси танка. 
+            В передней части башни, в маске, устанавливались пушка, пулемёт и <b><sc_element sys_idtf="concept_telescopic_sight">телескопический прицел</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [Evacuation hatches were located on both sides of the hull above the second and third support rollers in the E—L tanks. There 
+            were four hatches on the roof of the engine compartment — two large and two small - for access to the power plant units. In the bottom 
+            of the hull there were hatches for the descent of water, gasoline and oil and for access to the engine and gearbox. In the front upper 
+            part of the sides of the hull there were observation hatches with triplex glasses, which were closed with armor flaps (for Ausf tanks.A - D 
+            hatch was available only on the left - at the driver's seat).The turret was hexagonal, welded, placed symmetrically relative to the longitudinal 
+            axis of the tank. A cannon, a machine gun and a <b><sc_element sys_idtf="concept_telescopic_sight">telescopic sight</b> were mounted in front of 
+            the tower, wearing a mask.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус танка PzKpfWg III)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfWg III tank body)](*<- lang_en;;*);;
+*);;
+
+
+concept_PzKpfWg_III_tank_body
+<-superficially_hardened;
+<-rolled_chrome_nickel;
+<-the_forehead_of_the_body_50;
+<-hull_side_30;
+<-hull_feed_50;
+<-the_forehead_of_the_tower_30;
+<-side_of_the_tower_30;
+<-tower_feed_30;;

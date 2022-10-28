@@ -1,0 +1,55 @@
+concept_gun_5_cm_KwK_39<-sc_node_not_relation;;
+concept_gun_5_cm_KwK_39 => nrel_main_idtf: [пушка 5 cm KwK 39](*<- lang_ru;;*);;
+concept_gun_5_cm_KwK_39 => nrel_main_idtf: [gun 5 cm KwK 39](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_gun_5_cm_KwK_39;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [5 cm KwK 39  (5 cm Kampfwagenkanone 39 ) — германская танковая пушка калибра 50 мм, использовавшаяся главным образом в качестве 
+            основного вооружения среднего танка PzKpfw III . Оснащённые ею машины принимали участие в боевых действиях во Второй мировой войне.](*<- lang_ru;;*);;
+
+	        -> [The 5 cm KwK 39 (5 cm Kampfwagenkanone 39 ) was a German 50 mm tank gun used mainly as the main armament of the PzKpfw III medium tank. 
+            The vehicles equipped with it took part in combat operations in the Second World War.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(пушка 5 cm KwK 39)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(gun 5 cm KwK 39)](*<- lang_en;;*);;
+*);;
+
+concept_gun_5_cm_KwK_39<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(пушка 5 cm KwK 39)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_cannon/gun_5_cm_KwK_39.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_gun_5_cm_KwK_39;;
+
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Пушка хорошо проявила себя в Северной Африке против британских крейсерских танков и американских лёгких танков M3 
+            «Стюарт». Однако против советских Т-34 и тем более КВ-1 была недостаточно эффективна, и от неё 
+            постепенно отказались в пользу пушки 7,5 cm KwK 37 L/24, которая могла стрелять <b><sc_element sys_idtf="concept_shells">кумулятивными снарядами</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The gun performed well in North Africa against British cruiser tanks and American M3 Stewart light tanks. However, 
+            against the Soviet T-34 and especially the KV-1 was not effective enough, and it was gradually abandoned in favor of the 
+            7.5 cm KwK 37 L/24 cannon, which could fire cumulative projectiles.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(пушка 5 cm KwK 39)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(gun 5 cm KwK 39)](*<- lang_en;;*);;
+*);;
+
+
+concept_gun_5_cm_KwK_39
+<-barrel_length_60;
+<-rate_fire_15_18;
+<-[Снаряды:<b><sc_element sys_idtf="concept_shells">бронебойные</b>,<b><sc_element sys_idtf="concept_shells">подкалиберные</b>, <b><sc_element sys_idtf="concept_shells">осколочно-фугасные</b>.](* <- lang_ru;; => nrel_format: format_html;; *);
+<-weight_453_kg;
+<-vertical_guidance_10_20;;

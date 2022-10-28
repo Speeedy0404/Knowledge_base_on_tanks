@@ -1,0 +1,59 @@
+concept_tank<-sc_node_not_relation;;
+concept_tank => nrel_main_idtf: [танк](*<- lang_ru;;*);;
+concept_tank=> nrel_main_idtf: [tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Танк (англ. tank) — бронированная боевая машина, чаще всего на гусеничном ходу, 
+            как правило с пушечным и дополнительным пулемётным вооружением, обычно во вращающейся полноповоротной башне, 
+            предназначенной в основном для стрельбы прямой наводкой.](*<- lang_ru;;*);;
+
+	        -> [A tank is an armored combat vehicle, most often tracked, usually with cannon and additional machine gun 
+            armament, usually in a rotating full-turn turret, designed mainly for direct fire.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(танк)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(tank](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_tank;;
+    =>nrel_using_constants:{
+    concept_classification_of_tanks
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [На ранних стадиях развития танкостроения иногда выпускали танки с исключительно пулемётным вооружением, а после 
+            Второй мировой войны проводились эксперименты по созданию танков с ракетным вооружением
+            в качестве основного. Известны варианты танков с огнемётным вооружением. 
+            Определения танка как боевой машины было разным в разных армиях, так как их назначение 
+            и способы применения в разные эпохи менялись.Есть <b><sc_element sys_idtf="concept_classification_of_tanks">классификация танков</b> по типу.](* <- lang_ru;; => nrel_format: format_html;; *);;
+            
+            -> [In the early stages of the development of tank construction, tanks with exclusively machine-gun armament 
+            were sometimes produced, and after During the Second World War, experiments were conducted to create tanks with 
+            rocket armament. There are known variants of tanks with 
+            flamethrower armament. Definitions of a tank as a combat vehicle were different 
+            in different armies, since their purpose and the methods of application have 
+            changed in different eras.There is a <b><sc_element sys_idtf="concept_classification_of_tanks">classification of tanks</b> by type.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(танк)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_tank=>nrel_inclusion:
+concept_classification_of_tanks;
+concept_A7V_tank;
+concept_A7VU_heavy_tank;
+concept_Colossal_heavy_tank;
+concept_LK_I_light_tank;
+concept_LK_II_light_tank;
+concept_PzKpfw_I_Ausf_A;
+concept_PzKpfw_II;
+concept_PzKpfWg_III;;

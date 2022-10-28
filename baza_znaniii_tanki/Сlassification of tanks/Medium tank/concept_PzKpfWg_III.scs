@@ -1,0 +1,97 @@
+concept_PzKpfWg_III<-sc_node_not_relation;;
+concept_PzKpfWg_III => nrel_main_idtf: [средний танк PzKpfWg III](*<- lang_ru;;*);;
+concept_PzKpfWg_III=> nrel_main_idtf: [medium tank PzKpfWg III](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfWg_III;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Panzerkampfwagen III — немецкий средний танк времён Второй мировой войны, серийно выпускавшийся с 1938 по 1943 год. 
+            Сокращёнными названиями этого танка являлись Pz.Kpfw.III, Panzer III, Pz.III.](*<- lang_ru;;*);;
+
+	        -> [Panzerkampfwagen III is a German medium tank of the Second World War, mass-produced from 1938 to 1943. 
+            Abbreviated names of this tank were Pz.Kpfw.III, Panzer III, Pz.III.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(средний танк PzKpfWg III)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(medium tank PzKpfWg III)](*<- lang_en;;*);;
+*);;
+
+concept_PzKpfWg_III<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(средний танк PzKpfWg III)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_medium_tanks/PzKpfWg_III.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfWg_III;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Эти боевые машины использовались вермахтом с первого дня Второй мировой войны. Последние записи о боевом 
+            применении Pz.Kpfw.III в штатном составе подразделений вермахта датируются серединой 1944 года, одиночные танки 
+            воевали вплоть до капитуляции Германии. С середины 1941 по начало 1943 года Pz.Kpfw.III был основой бронетанковых 
+            войск вермахта (панцерваффе) и, несмотря на относительную слабость по сравнению с современными ему танками стран антигитлеровской 
+            коалиции, внёс значительный вклад в успехи вермахта того периода. Танки этого типа поставлялись армиям стран-союзников Германии по Оси. 
+            Захваченные Pz.Kpfw.III с хорошими результатами использовались Красной армией и союзниками. На базе Pz.Kpfw.III в Германии и СССР 
+            создавались  <b><sc_element sys_idtf="concept_anti_tank_self_propelled_guns">(САУ)</b> различного назначения.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [These combat vehicles have been used by the Wehrmacht since the first day of World War II. The last records of the 
+            combat use of Pz.Kpfw.III in the regular composition of the Wehrmacht units date back to the middle of 1944, single tanks 
+            fought until the surrender of Germany. From mid-1941 to early 1943, the Pz.Kpfw.III was the basis of the Wehrmacht armored 
+            forces (Panzerwaffe) and, despite its relative weakness compared to the tanks of the anti-Hitler coalition countries, made a 
+            significant contribution to the successes of the Wehrmacht of that period. Tanks of this type were supplied to the armies of 
+            Germany's Axis allies. The captured Pz.Kpfw.III were used with good results by the Red Army and the Allies. On the basis of Pz.Kpfw.III 
+            in Germany and the USSR, <b><sc_element sys_idtf="concept_anti_tank_self_propelled_guns">(self-propelled guns)</b> for various purposes were created.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(средний танк PzKpfWg III)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(medium tank PzKpfWg III)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfWg_III;;
+    =>nrel_using_constants:{
+    	concept_PzKpfWg_III_tank_body;
+        concept_gun_5_cm_KwK_39;
+        concept_MG_34_machine_gun;
+        concept_chassis_PzKpfWg_III
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка была такова: 
+                бронирование<b><sc_element sys_idtf="concept_PzKpfWg_III_tank_body">(корпус танка PzKpfWg III)</b>,
+                вооружение<b><sc_element sys_idtf="concept_gun_5_cm_KwK_39">(пушка 5 cm KwK 39</b> и <b><sc_element sys_idtf="concept_MG_34_machine_gun">пулемёт MG 34 )</b>,
+                двигатель(Все модификации оснащались двенадцатицилиндровыми бензиновыми карбюраторными моторами Maybach. Модификации Ausf.A-Ausf.D — мотором HL108TR объёмом 10.8 литра, мощностью 250 л. с. Модификации Ausf.E-Ausf.N — мотором HL120TR объёмом 11.9 литра, мощностью 300—320 л. с. Конструктивно второй мотор являлся развитием первого; моторы различались диаметром цилиндра и степенью сжатия.),
+                ходовая<b><sc_element sys_idtf="concept_chassis_PzKpfWg_III">(ходовая часть PzKpfWg III)</b>](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank was as follows: 
+                armoring<b><sc_element sys_idtf="concept_PzKpfWg_III_tank_body">(PzKpfWg III tank body)</b>,
+                armament<b><sc_element sys_idtf="concept_gun_5_cm_KwK_39">(gun 5 cm KwK 39</b> and <b><sc_element sys_idtf="concept_MG_34_machine_gun">MG 34 machine gun)</b>,
+                engine(All modifications were equipped with Maybach twelve-cylinder gasoline carburetor engines. Ausf modifications.A-Ausf.D - engine HL108TR volume of 10.8 liters, 250 hp Modification Ausf.E-Ausf.The HL120TR N-engine with a volume of 11.9 liters, with a capacity of 300-320 hp. Structurally, the second engine was a development of the first; the motors differed in cylinder diameter and compression ratio.),
+                running gear<b><sc_element sys_idtf="concept_chassis_PzKpfWg_III">(chassis PzKpfWg III)</b>](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(средний танк PzKpfWg III)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(medium tank PzKpfWg III)](*<- lang_en;;*);;
+*);;
+
+
+concept_PzKpfWg_III=>nrel_elements:
+concept_PzKpfWg_III_tank_body;
+concept_gun_5_cm_KwK_39;
+concept_MG_34_machine_gun;
+concept_chassis_PzKpfWg_III;;
+
+concept_PzKpfWg_III
+<-weight_21_5_t;
+<-length_6_4;
+<-width_2_9;
+<-height_2_5;
+<-crew_5;
+<-speed_40_highway;
+<-speed_15_country;;

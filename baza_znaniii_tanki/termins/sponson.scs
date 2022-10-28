@@ -1,0 +1,41 @@
+concept_sponson<-sc_node_not_relation;;
+concept_sponson => nrel_main_idtf: [спонсон](*<- lang_ru;;*);;
+concept_sponson => nrel_main_idtf: [sponson](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_sponson;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Спонсон — выступ на борту корабля или бронированной машины, обычно имеющий полукруглую форму и используемый для установки артиллерийских орудий.](*<- lang_ru;;*);;
+
+	        -> [A sponson is a protrusion on board a ship or an armored vehicle, usually having a semicircular shape and used for mounting artillery pieces.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Башмак)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(sponson)](*<- lang_en;;*);;
+*);;
+
+concept_sponson<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(спонсон)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/sponson.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_sponson;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Спонсоны использовались для увеличения углов обстрела орудий. Спонсоны имелись на многих кораблях второй половины XIX — начала XX века, а также у первых английских тяжелых танков.Для бронированных спонсонов также использовался термин каземат.](*<- lang_ru;;*);;
+
+            -> [Sponsons were used to increase the firing angles of guns. Sponsons were available on many ships of the second half of the XIX - early XX century, as well as the first British heavy tanks.The term casemate was also used for armored sponsons.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(спонсон)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(sponson)](*<- lang_en;;*);;
+*);;
+

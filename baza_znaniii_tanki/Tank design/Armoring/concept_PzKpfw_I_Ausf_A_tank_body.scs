@@ -1,0 +1,64 @@
+concept_PzKpfw_I_Ausf_A_tank_body<-sc_node_not_relation;;
+concept_PzKpfw_I_Ausf_A_tank_body => nrel_main_idtf: [корпус танка PzKpfw I Ausf. A](*<- lang_ru;;*);;
+concept_PzKpfw_I_Ausf_A_tank_body => nrel_main_idtf: [PzKpfw I Ausf. A tank body](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_I_Ausf_A_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка PzKpfw I Ausf. A -  был разработан специалистами фирмы Daimler-Benz, 
+            которые пошли по пути наименьшего сопротивления, взяв за основу конструкцию "тягача" LaS.](*<- lang_ru;;*);;
+            
+	        -> [The hull of the tank PzKpfw I Ausf. A - was developed by specialists from Daimler-Benz, 
+            who followed the path of least resistance, taking as a basis the design of the "tractor" LaS.](*<- lang_en;;*);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус танка PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(PzKpfw I Ausf. A tank body)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_I_Ausf_A_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Сборка корпуса производилась методом сварки из листов хромоникелевой стали.Лобовая часть состоит из 13-мм 
+            нижнего броневого листа, расположенного под углом в 25° к вертикали, и 8-мм среднего бронелиста, расположенного под 
+            углом в 70°. Борта состоят из цельных вертикальных 13-мм бронелистов. Кормовая часть также состоит из 13-мм бронелистов, 
+            верхнего и нижнего, расположенных под углами в 15° и 55° соответственно. Днище танка состоит из 5-мм броневого листа. 
+            Надстройка корпуса состоит из подбашенной коробки восьмигранной в плане формы, расположенной над боевым отделением, и 
+            кормовой части, размещённой над моторным отделением. Вертикальные поверхности подбашенной коробки состоят из 13-мм бронелистов 
+            и расположены под углом в 21°, а её крыша состоит из 8-мм бронелиста.](*<- lang_ru;;*);;
+
+            -> [The body was assembled by welding from sheets of chromium-nickel steel.The frontal part consists of a 13 mm lower 
+            armor plate, located at an angle of 25 ° to the vertical, and an 8 mm middle armor plate, located at an angle of 70 °. 
+            The sides consist of solid vertical 13 mm armor plates. The aft part also consists of 13 mm armor plates, upper and lower, 
+            located at angles of 15 ° and 55 °, respectively. The bottom of the tank consists of a 5 mm armor plate. The superstructure 
+            of the hull consists of a turret box of octagonal shape, located above the fighting compartment, and the aft part, located 
+            above the engine compartment. The vertical surfaces of the turret box consist of 13 mm armor plates and are located at an 
+            angle of 21 °, and its roof consists of 8 mm armor plate.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус танка PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfw I Ausf. A tank body)](*<- lang_en;;*);;
+*);;
+
+
+concept_PzKpfw_I_Ausf_A_tank_body
+<-rolled_chrome_nickel;
+<-the_forehead_of_the_body_12_21_top;
+<-the_forehead_of_the_body_8_72_middle;
+<-the_forehead_of_the_body_13_25_bottom;
+<-hull_side_13_21_top;
+<-hull_side_13_0_bottom;
+<-hull_feed_13_22_top;
+<-hull_feed_13_25_middle;
+<-hull_feed_13_55_bottom;
+<-underbody_5;
+<-roof_8_81_90;
+<-the_forehead_of_the_tower_13_8;
+<-gun_mask_15;
+<-side_of_the_tower_12_22;
+<-tower_feed_13_22;
+<-tower_roof_8_81_90;;

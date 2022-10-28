@@ -1,0 +1,52 @@
+concept_telescopic_sight<-sc_node_not_relation;;
+concept_telescopic_sight => nrel_main_idtf: [телескопический прицел](*<- lang_ru;;*);;
+concept_telescopic_sight => nrel_main_idtf: [telescopic sight](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_telescopic_sight;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Телескопический прицел — оптический прибор для обеспечения стрельбы прямой наводкой,
+               представляющий собой зрительную трубу с шарнирным соединением подвижной качающейся, связанной
+               с пушкой, и неподвижной, связанной с башней (окулярной) частей, снабжённую сетками с прицельными, 
+               дистанционными и угломерными шкалами.](*<- lang_ru;;*);;
+
+	        -> [A telescopic sight is an optical device for providing direct fire, which is a telescope with a hinged 
+               joint of a movable swinging, connected to a cannon, and fixed, connected to a tower (ocular) parts, equipped 
+               with grids with sighting, distance and angle scales.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(телескопический прицел)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(telescopic sight](*<- lang_en;;*);;
+*);;
+
+concept_telescopic_sight<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(телескопический прицел)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/telescopic_sight.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_telescopic_sight;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [У ранних образцов телескопических прицелов (в отечественной практике до 1943—44 гг.) шарнирное соединение 
+            не применялось и они фактически представляли собой телескоп (отсюда и название), закреплённый соосно с каналом 
+            ствола орудия (такое техническое решение используется до настоящего времени на оптических прицелах буксируемых артиллерийских систем).
+             Входное окно телескопического прицела размещается в лобовой части башни, что обусловливает наличие ослабленной зоны в бронировании.](*<- lang_ru;;*);;
+
+            -> [Early models of telescopic sights (in domestic practice until 1943-44) did not use a swivel joint and they actually represented
+             a telescope (hence the name) fixed coaxially with the gun barrel channel (such a technical solution is still used on optical sights of 
+             towed artillery systems). The entrance window of the telescopic sight is located in the frontal part of the tower, which determines the 
+             presence of a weakened zone in the reservation.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(телескопический прицел)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(telescopic sight)](*<- lang_en;;*);;
+*);;
+

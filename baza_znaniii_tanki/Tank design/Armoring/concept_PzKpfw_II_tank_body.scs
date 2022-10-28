@@ -1,0 +1,60 @@
+concept_PzKpfw_II_tank_body<-sc_node_not_relation;;
+concept_PzKpfw_II_tank_body => nrel_main_idtf: [корпус танка PzKpfw II](*<- lang_ru;;*);;
+concept_PzKpfw_II_tank_body => nrel_main_idtf: [PzKpfw II tank body](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_II_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка PzKpfw II -  сваривался из катаных листов хромоникелевой стали. Посадочного люка в крыше корпуса у 
+            механика-водителя не было, поэтому для посадки и высадки он пользовался одностворчатым в верхнем лобовом листе корпуса.](*<- lang_ru;;*);;
+            
+	        -> [The body of the PzKpfw II tank was welded from rolled sheets of chromium-nickel steel. The driver-mechanic did not have 
+            a landing hatch in the roof of the hull, so for boarding and disembarking he used a single-leaf in the upper frontal sheet of the hull.](*<- lang_en;;*);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус танка PzKpfw II)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(PzKpfw II tank body)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_II_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В отделении управления находились брезентовое сиденье механика-водителя, органы управления танком и контрольные приборы. 
+            В корпусе имелись четыре смотровых прибора со стеклоблоками триплекс, закрывавшиеся снаружи броневыми крышками со смотровыми щелями. 
+            Боевое и моторное отделения разделялись перегородкой. В последнем справа располагался двигатель, а слева радиатор и вентилятор системы охлаждения. 
+            В правой части крыши моторного отделения имелся двухстворчатый люк для доступа к двигателю. Расположение башни на танке асимметричное, со смещением 
+            относительно продольной оси влево на 85 мм. В её крыше находился двухстворчатый люк, который был заменён в процессе модернизации 
+            командирской башенкой. В правой створке люка выполнялся маленький прямоугольный лючок для флажковой сигнализации. Вращение башни 
+            осуществлялось вручную с помощью механизма поворота, располагавшегося справа от маск-установки вооружения. В бортах башни имелись 
+            два смотровых прибора со стеклоблоками триплекс и два вентиляционных лючка, закрываемых броневыми крышками. Боевое отделение в 
+            башне пола не имело.](*<- lang_ru;;*);;
+
+            -> [In the control compartment there was a canvas driver's seat, tank controls and control devices. There were four viewing devices 
+            with triplex glass blocks in the case, which were closed from the outside with armored covers with viewing slits. The combat and 
+            engine compartments were separated by a partition. In the latter, the engine was located on the right, and on the left the 
+            radiator and the cooling system fan. In the right part of the roof of the engine compartment there was a double-leaf 
+            hatch for access to the engine. The location of the turret on the tank is asymmetric, with an offset relative to the 
+            longitudinal axis to the left by 85 mm. In its roof there was a double-leaf hatch, which was replaced in the process 
+            of modernization by a commander's turret. In the right wing of the hatch, a small rectangular hatch was made for flag 
+            signaling. The rotation of the turret was carried out manually by means of a rotation mechanism located to the right 
+            of the armament mask installation. In the sides of the tower there were two viewing devices with triplex glass 
+            blocks and two ventilators the hatch, closed by armored covers. The combat compartment in the tower had no floor.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус танка PzKpfw II)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfw II tank body)](*<- lang_en;;*);;
+*);;
+
+
+concept_PzKpfw_II_tank_body
+<-chromium_nickel_steel;
+<-the_forehead_of_the_body_30;
+<-hull_side_20;
+<-hull_feed_15;
+<-the_forehead_of_the_tower_30;
+<-side_of_the_tower_15;
+<-tower_feed_15;;

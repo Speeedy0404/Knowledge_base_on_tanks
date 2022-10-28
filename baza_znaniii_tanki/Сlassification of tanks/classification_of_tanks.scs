@@ -1,0 +1,56 @@
+concept_classification_of_tanks<-sc_node_not_relation;;
+concept_classification_of_tanks => nrel_main_idtf: [классификация танков](*<- lang_ru;;*);;
+concept_classification_of_tanks=> nrel_main_idtf: [classification of tanks](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_classification_of_tanks;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Классификация танков — деление (классификация) танков, как боевой машины, в зависимости от конструкции, массы, использования их свойств и основных признаков.](*<- lang_ru;;*);;
+	        -> [Classification of tanks is the division (classification) of tanks as a combat vehicle, depending on the design, mass, use of their properties and main features.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(классификация танков)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(classification of tanks](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_classification_of_tanks;;
+    =>nrel_using_constants:{
+    	concept_light_tank;
+        concept_heavy_tank;
+        concept_medium_tank;
+        concept_anti_tank_self_propelled_guns;
+        concept_self_propelled_artillery_installation;
+        concept_main_battle_tank
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В разное время, в разных государствах существовало и существует большое количество классификаций танков в зависимости от их веса, 
+            бронирования, вооружения, проходимости, скорости, компоновки, радиуса действия, военной доктрины, теории стратегии и тактики, используемых 
+            технологий и времени создания и производства, того или иного военного дела.Основные классификации - <b><sc_element sys_idtf="concept_light_tank">
+            легкий танк</b>, <b><sc_element sys_idtf="concept_heavy_tank">тяжёлый танк</b>, <b><sc_element sys_idtf="concept_medium_tank">средний танк</b>, 
+            <b><sc_element sys_idtf="concept_anti_tank_self_propelled_guns">пт-сау</b>, <b><sc_element sys_idtf="concept_self_propelled_artillery_installation">сау</b>](* <- lang_ru;; => nrel_format: format_html;; *);;
+            
+            -> [At different times, in different states, there were and there are a large number of classifications of tanks depending on their weight, 
+            reservation, armament, patency, speed, layout, range, military doctrine, theory of strategy and tactics, technologies used and time of creation 
+            and production, a particular military matter.Basic classifications -  <b><sc_element sys_idtf="concept_light_tank">
+            light tank</b>, <b><sc_element sys_idtf="concept_heavy_tank">heavy tank</b>, <b><sc_element sys_idtf="concept_medium_tank">medium tank</b>, 
+            <b><sc_element sys_idtf="concept_anti_tank_self_propelled_guns">anti tank self propelled guns</b>, <b><sc_element sys_idtf="concept_self_propelled_artillery_installation">self propelled artillery installation</b> ](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(классификация танков)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(classification of tanks)](*<- lang_en;;*);;
+*);;
+
+
+concept_classification_of_tanks=>nrel_inclusion:
+concept_light_tank;
+concept_heavy_tank;
+concept_medium_tank;
+concept_anti_tank_self_propelled_guns;
+concept_self_propelled_artillery_installation;
+concept_main_battle_tank;;

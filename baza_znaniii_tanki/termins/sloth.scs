@@ -1,0 +1,43 @@
+concept_sloth<-sc_node_not_relation;;
+concept_sloth => nrel_main_idtf: [ленивец](*<- lang_ru;;*);;
+concept_sloth => nrel_main_idtf: [sloth](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_sloth;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ленивец – важный компонент ходовой части экскаваторов и другой спецтехники.](*<- lang_ru;;*);;
+
+	        -> [Sloth is an important component of the chassis of excavators and other special equipment.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(ленивец)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(sloth)](*<- lang_en;;*);;
+*);;
+
+concept_sloth<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(ленивец)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/sloth.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_sloth;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [ Элемент не участвует в передаче движущего момента на гусеницу, но является ключевым для 
+            осуществления поворота машины. Деталь обеспечивает работу поворотного механизма, направляя движение гусеничной ленты.](*<- lang_ru;;*);;
+
+            -> [The element is not involved in the transmission of the driving moment to the caterpillar, but is key to the implementation of the 
+            rotation of the machine. The part ensures the operation of the rotary mechanism, directing the movement of the crawler belt.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(ленивец)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(sloth)](*<- lang_en;;*);;
+*);;
+

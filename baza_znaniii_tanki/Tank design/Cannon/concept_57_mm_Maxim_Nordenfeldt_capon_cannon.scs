@@ -1,0 +1,61 @@
+concept_57_mm_Maxim_Nordenfeldt_capon_cannon<-sc_node_not_relation;;
+concept_57_mm_Maxim_Nordenfeldt_capon_cannon => nrel_main_idtf: [57-мм капонирнивая пушка Максима Норденфельдта](*<- lang_ru;;*);;
+concept_57_mm_Maxim_Nordenfeldt_capon_cannon => nrel_main_idtf: [57 mm Maxim Nordenfeldt capon cannon](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_57_mm_Maxim_Nordenfeldt_capon_cannon;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [57-мм капонирные пушки Максима Норденфельдта - были  захваченные Германие в октябре 1914 года в крепости Антверпен.](*<- lang_ru;;*);;
+	        -> [Maxim Nordenfeldt's 57 mm capon cannons were captured by Germany in October 1914 in the Antwerp fortress.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(57-мм капонирнивая пушка Максима Норденфельдта)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(57 mm Maxim Nordenfeldt capon cannon)](*<- lang_en;;*);;
+*);;
+
+concept_57_mm_Maxim_Nordenfeldt_capon_cannon<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(57-мм капонирнивая пушка Максима Норденфельдта)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_cannon/57_mm_Maxim_Nordenfeldt_capon_cannon.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_57_mm_Maxim_Nordenfeldt_capon_cannon;;
+
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Разрабатывал орудие Торстен Норденфельт (швед. Thorsten Nordenfelt), шведский инженер 
+            и промышленник, ранее освоивший производство картечниц и других образцов вооружений. 
+            В начале 1880-х годов Норденфельт разработал ряд малокалиберных одноствольных орудий, 
+            особенностями которых были высокая скорострельность и минимальная численность орудийной обслуги. 
+            В 1884 году было создано семь различных орудий калибром от 42 до 51 мм, при этом все они использовали 
+            однотипный механизм заряжания, запирания затвора и ведения стрельбы.](*<- lang_ru;;*);;
+
+            -> [The gun was developed by Torsten Nordenfelt (Swedish. Thorsten Nordenfelt), a Swedish engineer 
+            and industrialist who previously mastered the production of buckshot and other weapons. 
+            In the early 1880s, Nordenfelt developed a number of small-caliber single-barrel guns, the features
+             of which were a high rate of fire and a minimum number of gun attendants. In 1884, seven different 
+             guns with a caliber from 42 to 51 mm were created, while all of them used the same type of loading
+              mechanism, locking the bolt and firing.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(57-мм капонирнивая пушка Максима Норденфельдта)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(57 mm Maxim Nordenfeldt capon cannon)](*<- lang_en;;*);;
+*);;
+
+
+concept_57_mm_Maxim_Nordenfeldt_capon_cannon
+<-barrel_length_26;
+<-fireng_range_6400;
+<-[<b><sc_element sys_idtf="concept_shells">Снаряды</b>: <b><sc_element sys_idtf="concept_shells">осколочно-фугасные</b>,
+<b><sc_element sys_idtf="concept_shells">бронебойные</b>,<b><sc_element sys_idtf="concept_shells">картечные</b>](* <- lang_ru;; => nrel_format: format_html;; *);
+<-flight_speed_487;
+<-horizontal_guidance_45_45;
+<-vertical_guidance_20_20;;
+

@@ -1,0 +1,61 @@
+concept_Dreyse_MG_13_caliber_7_92_mm<-sc_node_not_relation;;
+concept_Dreyse_MG_13_caliber_7_92_mm => nrel_main_idtf: [пулемет Dreyse MG 13 калибра 7,92 мм](*<- lang_ru;;*);;
+concept_Dreyse_MG_13_caliber_7_92_mm => nrel_main_idtf: [Dreyse MG 13 7.92 mm machine guns](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_Dreyse_MG_13_caliber_7_92_mm;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Пулемет Dreyse MG 13 калибра 7,92 мм —  немецкий ручной пулемёт калибра 7.92-мм, 
+            разработанный в 1926 году, на основе конструкции ручного пулемёта MG 08/18 коллективом оружейников, 
+            технологов и инженеров отдела по разработке пулемётов (MG - Versuchsabteilung) фирмы Rheinmetall во главе с Луисом Штанге.](*<- lang_ru;;*);;
+
+	        -> [The Dreyse MG 13 7.92 mm machine gun is a German 7.92 mm hand machine gun developed in 1926, based 
+            on the design of the MG 08/18 hand machine gun by a team of gunsmiths, technologists and engineers of the 
+            machine gun development department (MG - Versuchsabteilung) of Rheinmetall led by Louis Stange.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(пулемет Dreyse MG 13 калибра 7,92 мм)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(Dreyse MG 13 7.92 mm machine guns)](*<- lang_en;;*);;
+*);;
+
+concept_Dreyse_MG_13_caliber_7_92_mm<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(пулемет Dreyse MG 13 калибра 7,92 мм)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/Dreyse_MG_13_caliber_7_92_mm.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_Dreyse_MG_13_caliber_7_92_mm;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Принят на вооружение германской армии в 1930 году с целью замены устаревшего пулемёта MG 08/18. 
+            Ограниченно применялся и в танках. В 1934 году на смену ему был принят единый пулемёт MG 34 (7,92-мм). 
+            MG 13 применялся в войсках наравне с MG 34 и MG 42 до конца войны. Питание пулемёта осуществлялось из рожкового 
+            магазина на 25 патронов, или из сдвоенного барабанного на 75 патронов. Автоматика пулемета использует отдачу ствола 
+            при его коротком ходе.](*<- lang_ru;;*);;
+
+            -> [It was adopted by the German army in 1930 in order to replace the outdated MG 08/18 machine gun. 
+            It was also used in tanks to a limited extent. In 1934, a single MG 34 (7.92 mm) machine gun was adopted to 
+            replace it. MG 13 was used in the troops along with MG 34 and MG 42 until the end of the war. The machine gun 
+            was powered from a horn magazine for 25 rounds, or from a double drum for 75 rounds. The automatics of the machine 
+            gun uses the recoil of the barrel during its short stroke.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(пулемет Dreyse MG 13 калибра 7,92 мм)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(Dreyse MG 13 7.92 mm machine guns)](*<- lang_en;;*);;
+*);;
+
+concept_Dreyse_MG_13_caliber_7_92_mm=>nrel_parameters:
+length_1340;
+weight_13_3_kg;
+[Калибр(мм) - 7.92];
+[Патрон	- 7.92 х 57];
+flight_speed_890;
+rate_fire_500_600;
+[Вид боепитания	Сдвоенный барабан на 75 патронов или рожок на 25 патронов];;

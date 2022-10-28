@@ -1,0 +1,70 @@
+concept_tank_building_in_the_First_World_War<-sc_node_not_relation;;
+concept_tank_building_in_the_First_World_War => nrel_main_idtf: 
+[танкостроение в Первую мировую войну(1916-1921)](*<- lang_ru;;*);
+[танкостроение(1916-1921)](*<- lang_ru;;*);;
+
+concept_tank_building_in_the_First_World_War => nrel_main_idtf: 
+[tank construction in the First World War(1916-1921)](*<- lang_en;;*);
+[tank construction(1916-1921)](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_tank_building_in_the_First_World_War;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Первая мировая война привела не только к грандиозным социальным потрясениям, 
+            но к целой серии радикальных переворотов в военном деле. Главной из них стала Великая 
+            танковая революция, которая выявила огромные возможности оперативного использования танков,
+             как средство подавления не только живой силы противника, но и как средство уничтожения долговременных
+              оборонительных сооружений. ](*<- lang_ru;;*);;
+
+	        -> [The First World War led not only to grandiose social upheavals, but to a whole series of radical 
+            coups in military affairs. The main one was the Great Tank Revolution, which revealed the enormous 
+            possibilities of the operational use of tanks as a means of suppressing not only the enemy's manpower, 
+            but also as a means of destroying long-term defensive structures.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(танкостроение в Первую мировую войну)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(tank construction in the First World War](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_tank_building_in_the_First_World_War;;
+    =>nrel_using_constants:{
+    	concept_A7V_tank;
+        concept_A7VU_heavy_tank;
+        concept_Colossal_heavy_tank;
+        concept_LK_I_light_tank;
+        concept_LK_II_light_tank
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Именно на полях сражений Первой мировой войны появился новой род
+             войск и тактика его боевого применения. Совершенный прорыв в танковом деле 
+             во времена Первой мировой на десятилетия определил характер современной войны и образ танка в будущем. Германская нация
+              в период первой мировой войны показала такую технику как: <b><sc_element sys_idtf="concept_A7V_tank">танк А7V</b>,
+              <b><sc_element sys_idtf="concept_A7VU_heavy_tank">тяжелый танк А7VU</b>, <b><sc_element sys_idtf="concept_Colossal_heavy_tank">тяжелый танк «Колоссаль»</b>, 
+              <b><sc_element sys_idtf="concept_LK_I_light_tank">легкий танк LK-I</b>, <b><sc_element sys_idtf="concept_LK_II_light_tank">легкий танк LK-II</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [It was on the battlefields of the First World War that a new kind of troops and
+             tactics of its combat use appeared. The perfect breakthrough in the tank business during 
+             the First World War for decades determined the nature of modern warfare and the image of the tank in the future.
+            The German nation during the First World War showed such equipment as: <b><sc_element sys_idtf="concept_A7V_tank">A7V tank</b>,
+            <b><sc_element sys_idtf="concept_A7VU_heavy_tank">A7VU heavy tank</b>,<b><sc_element sys_idtf="concept_Colossal_heavy_tank">Colossal heavy tank</b>, 
+            <b><sc_element sys_idtf="concept_LK_I_light_tank">LK-I light tank</b>,<b><sc_element sys_idtf="concept_LK_II_light_tank">легкий танк LK-II</b>.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(танкостроение в Первую мировую войну)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(tank construction in the First World War)](*<- lang_en;;*);;
+*);;
+
+
+concept_tank_building_in_the_First_World_War=>nrel_period:concept_the_pre_war_period;;
+
+concept_tank_building_in_the_First_World_War=>nrel_the_technique_used:
+concept_A7V_tank;
+concept_A7VU_heavy_tank;
+concept_Colossal_heavy_tank;
+concept_LK_I_light_tank;
+concept_LK_II_light_tank;;
+

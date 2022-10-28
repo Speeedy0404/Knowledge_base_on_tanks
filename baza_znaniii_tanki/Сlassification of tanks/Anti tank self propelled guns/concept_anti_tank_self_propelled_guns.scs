@@ -1,0 +1,48 @@
+concept_anti_tank_self_propelled_guns<-sc_node_not_relation;;
+concept_anti_tank_self_propelled_guns => nrel_main_idtf: [пт - сау](*<- lang_ru;;*);;
+concept_anti_tank_self_propelled_guns=> nrel_main_idtf: [anti tank self propelled guns](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_anti_tank_self_propelled_guns;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Противотанковая САУ — самоходное орудие на гусеничном, либо колёсном ходу, специализированное для борьбы с бронетехникой противника.](*<- lang_ru;;*);;
+	        -> [An anti-tank self-propelled self-propelled gun on a tracked or wheeled course, specialized for fighting enemy armored vehicles.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(пт - сау)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(anti tank self propelled guns](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_anti_tank_self_propelled_guns;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Создавался обычно на шасси танка или БТР, вооружалcя средствами борьбы с танками на средних и больших дистанциях: противотанковой пушкой или ракетой.](*<- lang_ru;;*);;
+            -> [t was usually created on the chassis of a tank or armored personnel carrier, armed with means of fighting tanks at medium and long distances: an anti-tank gun or a rocket.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(пт - сау)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(anti tank self propelled guns)](*<- lang_en;;*);;
+*);;
+
+
+concept_anti_tank_self_propelled_guns=>nrel_inclusion:...;;
+
+concept_anti_tank_self_propelled_guns=>nrel_functions:
+[Борьба с танками на средних и больших дистанциях.];;
+
+
+
+
+
+
+
+
+
+
+
+

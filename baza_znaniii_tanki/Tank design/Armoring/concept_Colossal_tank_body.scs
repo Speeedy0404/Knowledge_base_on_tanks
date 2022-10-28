@@ -1,0 +1,52 @@
+concept_Colossal_tank_body<-sc_node_not_relation;;
+concept_Colossal_tank_body => nrel_main_idtf: [корпус танка «Колоссаль»](*<- lang_ru;;*);;
+concept_Colossal_tank_body => nrel_main_idtf: [Colossal tank body](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_Colossal_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка «Колоссаль» - общая схема была заимствована у английских танков: гусеницы охватывали корпус, 
+            а вооружение размещалось в бортовых <b><sc_element sys_idtf="concept_sponson">спонсонах</b>. 
+            Однако взаимное расположение отделений было аналогично A7VU.](* <- lang_ru;; => nrel_format: format_html;; *);;
+            
+	        -> [The hull of the Colossal tank - the general scheme was borrowed from British tanks: the tracks covered the hull,
+             and the weapons were placed in the side <b><sc_element sys_idtf="concept_sponson">sponsons</b>. 
+             However, the relative location of the branches was similar to A7VU.](* <- lang_en;; => nrel_format: format_html;; *);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус танка «Колоссаль»)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(Colossal tank body)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_Colossal_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка собирался из больших катаных бронелистов, крепившихся к каркасу при помощи заклепок и болтов.
+                <b><sc_element sys_idtf="concept_sponson">Спонсоны</b> сложной в плане формы были выполнены съемными для удобства транспортировки. 
+                В скошенных передней и задней стенках уширенной части <b><sc_element sys_idtf="concept_sponson">спонсона</b> 
+                были устроены орудийные амбразуры. На крыше <b><sc_element sys_idtf="concept_sponson">спонсонов</b> имелись вентиляционные решетки. 
+                Для перевозки по железной дороге "К" мог разбираться на 15 - 20 частей.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The tank body was assembled from large rolled armor plates attached to the frame with rivets and bolts. 
+                 The <b><sc_element sys_idtf="concept_sponson">sponsons</b> of a complex shape were made removable for ease of transportation.
+                 Gun embrasures were arranged in the beveled front and rear walls of the widened part of the 
+                 <b><sc_element sys_idtf="concept_sponson">sponsons</b>. There were ventilation grilles on the roof of the 
+                 <b><sc_element sys_idtf="concept_sponson">sponsons</b>.For transportation by rail, "K" could be disassembled into 15-20 parts.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус танка «Колоссаль»)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(Colossal tank body)](*<- lang_en;;*);;
+*);;
+
+
+concept_Colossal_tank_body
+<-rolled_steel;
+<-the_forehead_of_the_body_30;
+<-hull_side_30;
+<-hull_feed_30;
+<-roof_10;
+<-underbody_10;;

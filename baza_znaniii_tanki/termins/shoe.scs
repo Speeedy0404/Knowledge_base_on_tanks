@@ -1,0 +1,41 @@
+concept_shoe<-sc_node_not_relation;;
+concept_shoe => nrel_main_idtf: [Башмак](*<- lang_ru;;*);;
+concept_shoe => nrel_main_idtf: [shoe](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_shoe;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Башмак- это одна из составных частей гусеницы трактора. Башмаки гусениц представляют собой литые или штампованные звенья из износостойкой стали, имеющие на наружной поверхности грунтозацепы, на внутренней поверхности — направляющие гребни, а также отверстия (цевки), в которые входят зубья ведущих колес, и ушки, в которые входят соединительные пальцы, шарнирно соединяющие траки между собой. По конструктивному выполнению звеньев  гусеницы бывают составные и цельнолитые.](*<- lang_ru;;*);;
+
+	        -> [A shoe is one of the components of a tractor caterpillar. Caterpillar shoes are cast or stamped links made of wear-resistant steel, having ground hooks on the outer surface, guide ridges on the inner surface, as well as holes (caps), which include the teeth of the driving wheels, and lugs, which include connecting fingers, pivotally connecting the tracks to each other. According to the constructive execution of the links, the tracks are composite and solid.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Башмак)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(shoe)](*<- lang_en;;*);;
+*);;
+
+concept_shoe<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(Башмак)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/shoe.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_shoe;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В настоящее время, известно несколько десятков типов башмаков гусениц. Конструкция и материал башмака гусеницы определяются типом трактора и условиями, в которых техника будет эксплуатироваться. На выбор типа башмака гусениц влияет все от погодных условий до вида грунта. К примеру, в болотах эксплуатируются более широкие болотоходные башмаки гусениц.](*<- lang_ru;;*);;
+
+            -> [Currently, several dozen types of caterpillar shoes are known. The design and material of the caterpillar shoe are determined by the type of tractor and the conditions in which the equipment will be operated. The choice of the type of caterpillar shoe is influenced by everything from weather conditions to the type of soil. For example, in swamps, wider marsh-walking shoes of caterpillars are used.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(Башмак)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(shoe)](*<- lang_en;;*);;
+*);;
+

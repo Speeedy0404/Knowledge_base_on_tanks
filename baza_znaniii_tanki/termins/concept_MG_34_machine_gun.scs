@@ -1,0 +1,74 @@
+concept_MG_34_machine_gun<-sc_node_not_relation;;
+concept_MG_34_machine_gun => nrel_main_idtf: [пулемёт MG 34](*<- lang_ru;;*);;
+concept_MG_34_machine_gun => nrel_main_idtf: [MG 34 machine gun](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_MG_34_machine_gun;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [MG 34 (нем. Maschinengewehr 34) — немецкий единый пулемёт, созданный еще до Второй мировой войны.7,9-мм пулемёт 
+            MG 34 был разработан немецкой компанией Rheinmetall-Borsig AG по заказу Рейхсвера. Разработкой пулемёта руководил Луис Штанге. 
+            Пулемёт был официально принят на вооружение вермахта в 1934 году и вплоть до 1942 года официально являлся основным пулемётом не только пехоты, 
+            но и танковых войск Германии.](*<- lang_ru;;*);;
+
+	        -> [MG 34 (German: Maschinengewehr 34) is a German single machine gun created before the Second World War.The 7.9 mm MG 34 machine gun was 
+            developed by the German company Rheinmetall-Borsig AG by order of the Reichswehr. The development of the machine gun was led by Louis Stange. 
+            The machine gun was officially adopted by the Wehrmacht in 1934 and until 1942 was officially the main machine gun not only of infantry, 
+            but also of the German tank forces.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(пулемёт MG 34)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(MG 34 machine gun)](*<- lang_en;;*);;
+*);;
+
+concept_MG_34_machine_gun<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(пулемёт MG 34)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/MG_34_machine_gun.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_MG_34_machine_gun;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В 1942 году вместо MG 34 на вооружение был принят более совершенный пулемёт MG 42, однако производство MG 34 не прекратилось вплоть 
+            до конца Второй мировой войны и было возобновлено после её окончания, так как он продолжал использоваться в роли танкового пулемёта в силу 
+            большей приспособленности к этому по сравнению с MG 42 и MG 3. После войны MG 34 в огромных количествах производился и долгое время состоял 
+            на вооружении в следующих странах: США, ФРГ, ГДР, Югославии, Чехословакии, Франции, Турции и Швейцарии (вариант М-53), в том числе под боеприпасы 
+            стандарта НАТО (7,62 и 7,5 мм). Кроме того, большими (десятки тысяч единиц) партиями экспортировался и поставлялся США, ФРГ и СССР 
+            (в основном трофейные и восстановленные) в страны Азии и Ближнего Востока, также Китай, Иран, Ирак, Египет и Израиль. MG 34 в первую 
+            очередь достоин упоминания как первый единый пулемёт, когда-либо принятый на вооружение. В нём воплотилась выработанная вермахтом на 
+            опыте Первой мировой войны концепция универсального пулемёта, способного выполнять роль как легкого ручного пулемёта, используемого с 
+            сошек, так и станкового, используемого с пехотного или зенитного станка, а также танкового, используемого в спаренных и отдельных установках 
+            танков и боевых машин. Подобная унификация упрощала снабжение и обучение войск, обеспечивала высокую тактическую гибкость.](*<- lang_ru;;*);;
+
+            -> [In 1942, instead of MG 34, a more advanced MG 42 machine gun was adopted, but the production of MG 34 did not stop until the end of 
+            World War II and was resumed after its end, as it continued to be used as a tank machine gun due to its greater adaptability to this 
+            compared to MG 42 and MG 3. After the war, MG 34 was produced in huge quantities and was in service for a long time in the following 
+            countries: USA, Germany, GDR, Yugoslavia, Czechoslovakia, France, Turkey and Switzerland (variant M-53), including under NATO standard 
+            ammunition (7.62 and 7.5 mm). In addition, large (tens of thousands of units) were exported and supplied by the USA, Germany and the USSR 
+            (mostly captured and restored) to the countries of Asia and the Middle East, as well as China, Iran, Iraq, Egypt and Israel. The MG 34 is 
+            primarily worthy of mention as the first single machine gun ever adopted. It embodied the concept developed by the Wehrmacht on the experience 
+            of the First World War a universal machine gun capable of performing the role of both a light machine gun used from bipods, and a machine gun 
+            used from an infantry or anti-aircraft machine, as well as a tank used in paired and separate installations of tanks and combat vehicles. Such 
+            unification simplified the supply and training of troops, provided high tactical flexibility.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(пулемёт MG 34)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(MG 34 machine gun)](*<- lang_en;;*);;
+*);;
+
+concept_MG_34_machine_gun=>nrel_parameters:
+length_1219;
+weight_12_1_31_kg;
+[Калибр(мм) - от 6 до 7,92 мм];
+[Патрон	- 	7,92x57 ; 7,62x51 ; 7,5x54 ; 6,5x55];
+flight_speed_750_1000;
+rate_fire_500_1200;
+[Вид боепитания	сплошные, также расыпные либо звеньевые ленты-отрезками емкостью по 50 патронов, также различные барабанные магазины на 50-150 патронов];
+fireng_range_400_600;;

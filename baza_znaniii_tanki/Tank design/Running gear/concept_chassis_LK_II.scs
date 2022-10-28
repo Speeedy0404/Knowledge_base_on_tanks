@@ -1,0 +1,55 @@
+concept_chassis_LK_II<-sc_node_not_relation;;
+concept_chassis_LK_II => nrel_main_idtf: [ходовая часть LK-II](*<- lang_ru;;*);;
+concept_chassis_LK_II => nrel_main_idtf: [chassis LK-II](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_LK_II;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть LK-II - управление осуществлялось выключением и подтормаживанием одной из гусениц. 
+            Манипуляции с гусеницей одного борта производились одним качающимся рычагом на три положения. В заднем 
+            положении рычага включалось сцепление соответствующей гусеницы, в среднем - сцепление выключалось, в переднем - 
+            включался тормоз гусеницы.](*<- lang_ru;;*);;
+
+	        -> [The control was carried out by turning off and slowing down one of the tracks. 
+            Manipulations with the caterpillar of one side were carried out with one swinging lever for three positions.
+             In the rear position of the lever, the clutch of the corresponding caterpillar was turned on, in the middle - the clutch was turned off,
+              in the front - the caterpillar brake was turned on.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть LK-II)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis LK-II)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_LK_II;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Механик-водитель мог регулировать радиус поворота. Минимальный радиус составлял 1,7 м. Приводы управления и 
+            элементы трансмиссии находились под полом боевого отделения. Компоновка трансмиссии и механизмов поворота вдоль 
+            продольного вала вполне соответствовала небольшой ширине боевой машины. Наружные стенки гусеничного хода получили 
+            отогнутые внутрь наклонные секции для сброса грязи с верхней ветви гусеницы - приспособление, заимствованное у танка 
+            Мк А "Уиппет". Несколько был изменен, по сравнению с танком LK-I, и массивный буксирный крюк. Угол подъема на минимальной 
+            скорости при включенной понижающей передаче достигал 41° при выключенной - 17,5°, на максимальной - соответственно 6,5° и 2°.](*<- lang_ru;;*);;
+
+            -> [The driver mechanic could adjust the turning radius. The minimum radius was 1.7 m. The control drives and transmission 
+            elements were located under the floor of the combat compartment. The layout of the transmission and rotation mechanisms along 
+            the longitudinal shaft fully corresponded to the small width of the combat vehicle. The outer walls of the caterpillar track 
+            received inclined sections bent inward to dump dirt from the upper branch of the caterpillar - a device borrowed from 
+            the Mk A "Whippet" tank. The massive tow hook was also slightly modified compared to the LK-I tank. The angle of ascent at 
+            the minimum speed with the downshift turned on reached 41° with the off - 17.5°, at the maximum - 6.5° and 2°, respectively.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть LK-II)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(chassis LK-II)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_LK_II
+<-width_shoe_250;
+<-thickness_shoe_7;
+<-width_rails_80;
+<-height_rails_115;
+<-[Шаг <b><sc_element sys_idtf="concept_shoe">башмака</b> - 140 мм](* <- lang_ru;; => nrel_format: format_html;; *);
+<-[Количество <b><sc_element sys_idtf="concept_shoe">башмаков</b> - 74](* <- lang_ru;; => nrel_format: format_html;; *);;
+

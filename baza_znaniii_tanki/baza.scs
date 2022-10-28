@@ -1,0 +1,73 @@
+section_subject_domain_of_german_tank_building<-sc_node_norole_relation;
+=> nrel_main_idtf: [Раздел. Предметная область германское танкостроение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Section. Subject domain of german tank building] (* <- lang_en;; *);
+<= nrel_section_decomposition:
+{
+	section_subject_domain_of_history_of_german_tank_building;
+	section_subject_domain_of_tank_design;
+	section_subject_domain_of_tank
+
+};
+=> nrel_private_subject_domain:subject_domain_of_german_tank_building;;
+
+section_subject_domain_of_history_of_german_tank_building<-sc_node_norole_relation;
+	=> nrel_main_idtf: [Раздел. Предметная область история германского танкостроения] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Subject domain of history of german tank building] (* <- lang_en;; *);
+	<= nrel_section_decomposition:
+	{
+		section_subject_concept_tank_building_in_the_First_World_War;
+		section_subject_concept_the_pre_war_period;
+		section_subject_concept_tank_building_in_World_War_II;
+		section_subject_concept_modern_tank_building
+	};
+	=> nrel_private_subject_domain:subject_domain_of_history_of_german_tank_building;;
+
+section_subject_domain_of_tank_design<-sc_node_norole_relation;
+	=> nrel_main_idtf: [Раздел. Предметная область конструкция танка] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Subject domain of tank design] (* <- lang_en;; *);
+	<= nrel_section_decomposition:
+	{
+		section_subject_concept_cannon;
+		section_subject_concept_engine;
+		section_subject_concept_running_gear;
+		section_subject_concept_armoring
+	};
+	=> nrel_private_subject_domain:subject_domain_of_tank_design;;
+
+section_subject_domain_of_tank<-sc_node_norole_relation;
+	=> nrel_main_idtf: [Раздел. Предметная область танк] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Subject domain of tank] (* <- lang_en;; *);
+	<= nrel_section_decomposition:
+	{
+		section_subject_concept_classification_of_tanks;
+		section_subject_concept_A7V_tank;
+		section_subject_concept_A7VU_heavy_tank;
+		section_subject_concept_Colossal_heavy_tank;
+		section_subject_concept_LK_I_light_tank;
+		section_subject_concept_LK_II_light_tank;
+		section_subject_concept_PzKpfw_I_Ausf_A;
+		section_subject_concept_PzKpfw_II;
+		section_subject_concept_PzKpfWg_III
+	};
+	=> nrel_private_subject_domain:subject_domain_of_tank;;
+		
+			
+subject_domain_of_german_tank_building<-sc_node_norole_relation;
+=> nrel_main_idtf: [Предметная область германское танкостроение] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Subject domain of german tank building] (* <- lang_en;; *);
+=> nrel_system_idtf: [subject_domain_of_german_tank_building] (* <- lang_en;; *);;
+
+subject_domain_of_history_of_german_tank_building<-sc_node_norole_relation;
+=> nrel_main_idtf: [Предметная область история германского танкостроения] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Subject domain of history of german tank building] (* <- lang_en;; *);
+=> nrel_system_idtf: [subject_domain_of_history_of_german_tank_building] (* <- lang_en;; *);;
+
+subject_domain_of_tank_design<-sc_node_norole_relation;
+=> nrel_main_idtf: [Предметная область конструкция танка] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Subject domain of tank design] (* <- lang_en;; *);
+=> nrel_system_idtf: [subject_domain_of_tank_design] (* <- lang_en;; *);;
+
+subject_domain_of_tank<-sc_node_norole_relation;
+=> nrel_main_idtf: [Предметная область танк] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Subject domain of tank] (* <- lang_en;; *);
+=> nrel_system_idtf: [subject_domain_of_tank] (* <- lang_en;; *);;

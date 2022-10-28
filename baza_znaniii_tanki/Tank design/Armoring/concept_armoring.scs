@@ -1,0 +1,44 @@
+concept_armoring<-sc_node_not_relation;;
+concept_armoring => nrel_main_idtf: [броня](*<- lang_ru;;*);;
+concept_armoring => nrel_main_idtf: [armor](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_armoring;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Броня- самый важный показатель в характеристике любой боевой машины, а особенно - танка.](*<- lang_ru;;*);;
+	        -> [Armoring is the most important indicator in the characteristics of any combat vehicle, and especially a tank.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(бронирование)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(armoring)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_armoring;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Долгое время броня была гомогенной. Простым языком - это броня, которая сделана из одного материала.
+                Например, вся толща брони башни танка могла выполняться из стали определенной марки, впрочем, как и броня базы.
+                После чего появилась  комбинированная многослойная броня.Суть ее заключается в том, что бронирование состоит из нескольких
+                слоев разных по природе и плотности материалов.](*<- lang_ru;;*);;
+            -> [For a long time, the armor was homogeneous. In simple terms, it is an armor that is made of one material.
+                For example, the entire thickness of the armor of the tank tower could be made of steel of a certain brand, however, as well as the armor of the base.
+                After that, a combined multi-layered armor appeared.Its essence lies in the fact that the reservation consists of several
+                layers of materials of different nature and density.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(броня)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(armor)](*<- lang_en;;*);;
+*);;
+
+concept_armoring=>nrel_inclusion:
+concept_buildings_Krupa_Rehling;
+concept_A7VU_tank_body;
+concept_Colossal_tank_body;
+concept_LK_I_tank_body;
+concept_PzKpfw_I_Ausf_A_tank_body;
+concept_PzKpfw_II_tank_body;
+concept_PzKpfWg_III_tank_body;;
+

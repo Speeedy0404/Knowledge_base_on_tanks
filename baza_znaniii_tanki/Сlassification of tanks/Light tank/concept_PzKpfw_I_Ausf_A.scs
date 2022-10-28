@@ -1,0 +1,105 @@
+concept_PzKpfw_I_Ausf_A<-sc_node_not_relation;;
+concept_PzKpfw_I_Ausf_A => nrel_main_idtf: [легкий танк PzKpfw I Ausf. A](*<- lang_ru;;*);;
+concept_PzKpfw_I_Ausf_A=> nrel_main_idtf: [PzKpfw I Ausf. A light tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_I_Ausf_A;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Panzerkampfwagen I Ausf. A — германский лёгкий танк 1930-х годов.](*<- lang_ru;;*);;
+
+	        -> [Panzerkampfwagen I Ausf. A is a German light tank of the 1930s.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(легкий танк PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(PzKpfw I Ausf. A light tank)](*<- lang_en;;*);;
+*);;
+
+concept_PzKpfw_I_Ausf_A<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(легкий танк PzKpfw I Ausf. A)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_light_tanks/PzKpfw_I_Ausf_A.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_I_Ausf_A;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Германия использовала одну из немногочисленных поблажек, зафиксированных в Версальском договоре от 1919 года – Германии разрешалось 
+            строить учебные бронированные машины лёгкого типа. Расчет был на то, что даже если немцам и удастся наладить сборку таких машин в больших 
+            количествах, то для стран бывшей Антанты они не будут представлять существенной угрозы. Сами германцы так совершенно не считали.В 1932 году 
+            полковник Г. Гудериан настоял на том, чтобы немецкая промышленность наладила выпуск лёгких танков. Спецификация, ограничивающая массу машины 
+            до 5000 кг при противопульном бронировании и вооружении из двух 7,92-мм пулеметов, была выдана сразу четырем фирмам: Daimler-Benz, 
+            Rheinmetall-Borsig, MAN и Krupp. Победителем конкурса стала фирма Kruup, предложившая почти готовой проект "малого трактора", составленный 
+            инженерами Хогельлохом и Вольфертом. Чтобы скрыть истинные намерения первый прототип этой машины, выпущенный в июле 1932 года, первоначально 
+            получило обозначение LaS.Кроме того, с мая 1935 года, после того как Германия официально отказалась от соблюдения требований Версальского договора, 
+            вместо прежних конспиративных обозначений танку было присвоено новое обозначение — M.G. Panzerwagen ("пулемётная бронемашина"), к октябрю того же 
+            года сменившееся на M.G. Kampfwagen ("пулемётный танк"). К началу осени 1936 года и по состоянию на 1 октября того же года, на вооружении вермахта 
+            числилось 1160 танков этой модификации.С ноября 1935 года он получил обозначение M.G. Panzerkampfwagen, а в апреле 1936 года танку было присвоено 
+            новое, на этот раз уже окончательное, обозначение — Panzerkampfwagen I Ausführung A (Ausf.A — "модель А").](*<- lang_ru;;*);;
+
+            -> [Germany used one of the few indulgences fixed in the Treaty of Versailles of 1919 – Germany was allowed to build light armored 
+            training vehicles. The calculation was that even if the Germans managed to assemble such machines in large quantities, they would not pose 
+            a significant threat to the countries of the former Entente. The Germans themselves did not think so at all.In 1932, Colonel G. Guderian 
+            insisted that the German industry set up the production of light tanks. The specification limiting the weight of the machine to 5000 kg with 
+            bulletproof booking and armament of two 7.92 mm machine guns was issued to four companies at once: Daimler-Benz, Rheinmetall-Borsig, MAN and 
+            Krupp. The winner of the competition was Kruup, which offered an almost finished project of a "small tractor", compiled by engineers Hogelloh 
+            and Wolfert. To hide the true intentions of the first prototype of this machine, released in July 1932, initially received the designation 
+            LaS.Besides,since May 1935, after Germany officially refused to comply with the requirements of the Versailles Treaty, a new designation was 
+            assigned to the tank instead of the previous conspiratorial designations — M.G. Panzerwagen ("machine-gun armored vehicle"), by October of the 
+            same year it was replaced by M.G. Kampfwagen ("machine-gun tank"). By the beginning of the autumn of 1936 and as of October 1 of the same year, 
+            the Wehrmacht had 1,160 tanks of this modification in service.From November 1935, it received the designation M.G. Panzerkampfwagen, and in April 
+            1936, the tank was assigned a new, this time already final, designation - Panzerkampfwagen I Ausführung A (Ausf.A — "model A").](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(легкий танк PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfw I Ausf. A light tank)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_PzKpfw_I_Ausf_A;;
+    =>nrel_using_constants:{
+    	concept_PzKpfw_I_Ausf_A_tank_body;
+        concept_Dreyse_MG_13_caliber_7_92_mm;
+        concept_Krupp_M305;
+        concept_chassis_PzKpfw_I_Ausf_A
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка была такова: 
+                бронирование <b><sc_element sys_idtf="concept_PzKpfw_I_Ausf_A_tank_body">(корпус танка PzKpfw I Ausf. A)</b>,
+                вооружение(два пулемета <b><sc_element sys_idtf="concept_Dreyse_MG_13_caliber_7_92_mm">Dreyse MG 13 калибра 7,92 мм)</b>,
+                двигатель<b><sc_element sys_idtf="concept_Krupp_M305">(Krupp M305)</b>,
+                ходовая<b><sc_element sys_idtf="concept_chassis_PzKpfw_I_Ausf_A">(ходовая часть PzKpfw I Ausf. A)</b>](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank was as follows: 
+                armoring<b><sc_element sys_idtf="concept_PzKpfw_I_Ausf_A_tank_body">(PzKpfw I Ausf. A tank body)</b>,
+                armament(two <b><sc_element sys_idtf="concept_Dreyse_MG_13_caliber_7_92_mm">Dreyse MG 13 7.92 mm machine guns)</b>,
+                engine<b><sc_element sys_idtf="concept_Krupp_M305">(Krupp M305)</b>,
+                running gear<b><sc_element sys_idtf="concept_chassis_PzKpfw_I_Ausf_A">(chassis PzKpfw I Ausf. A)</b>](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(легкий танк PzKpfw I Ausf. A)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(PzKpfw I Ausf. A light tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_PzKpfw_I_Ausf_A=>nrel_elements:
+concept_PzKpfw_I_Ausf_A_tank_body;
+concept_Dreyse_MG_13_caliber_7_92_mm;
+concept_Krupp_M305;
+concept_chassis_PzKpfw_I_Ausf_A;;
+
+concept_PzKpfw_I_Ausf_A
+<-weight_5_4_t;
+<-length_4_02;
+<-width_2_06;
+<-height_1_7;
+<-crew_2;
+<-speed_37_5_highway;
+<-speed_12_country;;

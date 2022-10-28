@@ -1,0 +1,73 @@
+concept_the_pre_war_period<-sc_node_not_relation;;
+concept_the_pre_war_period => nrel_main_idtf: 
+[танкостроение в предвоенный период(1930-1936)](*<- lang_ru;;*);
+[танкостроение(1930-1936)](*<- lang_ru;;*);;
+
+concept_the_pre_war_period => nrel_main_idtf: 
+[tank construction in the pre-war period(1930-1936)](*<- lang_en;;*);
+[tank construction (1930-1936)](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_the_pre_war_period;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Для оснащения танковых войск в начале 1930 гг. потребовались два типа боевых машин в классе 20 т. Вместе с тем, немецкой 
+            танковой промышленности потребовалось определенное количество времени для закупки оборудования и начала серийного производства 
+            этого вида крупной военной техники. В этой связи, было найдено промежуточное решение: как можно скорее начать 
+            производство учебной техники.](*<- lang_ru;;*);;
+
+	        -> [To equip tank troops in the early 1930s , two types of combat vehicles in the 20 t class were required . 
+            At the same time, the German tank industry needed a certain amount of time to purchase equipment and start mass 
+            production of this type of large military equipment. In this regard, an intermediate solution was found: start 
+            production of educational equipment as soon as possible.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(танкостроение в предвоенный период)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(tank construction in the pre-war period](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_the_pre_war_period;;
+     =>nrel_using_constants:{
+    	concept_PzKpfw_I_Ausf_A;
+        concept_PzKpfw_II;
+        concept_PzKpfWg_III;
+        concept_PzKpfWg_IV
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Временные решения изначально заключались в разработке и строительстве легких боевых бронированных машин
+             «Панцеркамфваген» (Panzerkampfwagen, PzKpfWg) в классе 5 т (<b><sc_element sys_idtf="concept_PzKpfw_I_Ausf_A">PzKpfw I Ausf. A</b>) 
+              и более тяжелых в классе 10 т (<b><sc_element sys_idtf="concept_PzKpfw_II">PzKpfw II</b>).
+              Благодаря этому стало возможным проводить интенсивное обучение.В 1934 г. тогдашнее ведомство по вооружению выдало заказы 
+              на разработку двух средних боевых машин в классах 15 т и 18 т. Эти типы боевых машин должны были позднее образовать основу 
+              оснащения танковых дивизий. При этом, более легкий вариант предполагалось оснащаться оружием для поражения танков, а 18-ти 
+              тонная машина предназначалась для использования в качестве поддерживающего средства. Она оснащалась оружием большего калибра.
+              Первая боевая техника, модели <b><sc_element sys_idtf="concept_PzKpfWg_III">PzKpfWg III</b> и 
+              <b><sc_element sys_idtf="concept_PzKpfWg_IV">PzKpfWg IV</b>, начала поступать в войска с 1936 г. Уже в первых боях проявились их недостатки. 
+              Приходилось проводить постоянные улучшения вооружения и защиты, что привело к неизбежному увеличению их веса.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [Temporary solutions initially consisted in the development and construction of light armored combat vehicles
+                "Panzerkampfwagen" (Panzerkampfwagen, PzKpfWg) in class 5 t (<b><sc_element sys_idtf="concept_PzKpfw_I_Ausf_A">PzKpfw I Ausf. A</b>) 
+                 and heavier in the 10 t class (<b><sc_element sys_idtf="concept_PzKpfw_II">PzKpfw II</b>).
+                 Thanks to this, it became possible to conduct intensive training.In 1934 , the then Armament department issued orders 
+                 for the development of two medium combat vehicles in the 15 t and 18 t classes . These types of combat vehicles were later to form the basis
+                 for equipping tank divisions. At the same time, the lighter version was supposed to be equipped with weapons to defeat tanks, and the 18-
+                 ton machine was intended to be used as a support vehicle. It was equipped with a larger caliber weapon.
+                 The first military equipment, models <b><sc_element sys_idtf="concept_PzKpfWg_III">PzKpfWg III</b> 
+                 and <b><sc_element sys_idtf="concept_PzKpfWg_IV">PzKpfWg IV</b>, began to enter the army in 1936. Already in the first battles,
+                 their shortcomings were revealed. It was necessary to carry out constant improvements in weapons ](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(танкостроение в предвоенный период)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(tank construction in the pre-war period)](*<- lang_en;;*);;
+*);;
+
+concept_the_pre_war_period=>nrel_period:concept_tank_building_in_World_War_II;;
+
+concept_the_pre_war_period=>nrel_the_technique_used:
+concept_PzKpfw_I_Ausf_A;
+concept_PzKpfw_II;
+concept_PzKpfWg_III;
+concept_PzKpfWg_IV;;

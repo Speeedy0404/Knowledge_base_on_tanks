@@ -1,0 +1,47 @@
+concept_A7VU_tank_body<-sc_node_not_relation;;
+concept_A7VU_tank_body => nrel_main_idtf: [корпус танка А7VU](*<- lang_ru;;*);;
+concept_A7VU_tank_body => nrel_main_idtf: [A7VU tank body](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_A7VU_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Корпус танка А7VU - клёпаной конструкции, спроектированный "с нуля", в общих чертах повторял британский 
+            "ромб", хотя выглядел ещё более угловато.](*<- lang_ru;;*);;
+            
+	        -> [The body of the A7VU - riveted tank, designed "from scratch", in general terms repeated the British "rhombus",
+             although it looked even more angular.](*<- lang_en;;*);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус танка А7VU)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(A7VU tank body)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_A7VU_tank_body;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Броневые листы крепились заклепками к каркасу, защищенность А7VU была выше, чем у английского танка, 
+            за счет брони толщиной 20 мм и наклона верхнего лобового листа корпуса под углом 50°. В верхнем бронелисте было 
+            два смотровых люка, для механика-водителя, место которого вместе с органами управления размещалось с левой стороны, 
+            и командира танка.](*<- lang_ru;;*);;
+
+            -> [The armor plates were riveted to the frame, the protection of the A7VU was higher than that of the British tank,
+             due to armor with a thickness of 20 mm and the inclination of the upper frontal sheet of the hull at an angle of 50 °.
+             There were two observation hatches in the upper armor plate, for the driver, whose seat, along with the controls, was
+              located on the left side, and the tank commander.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус танка А7VU)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(A7VU tank body)](*<- lang_en;;*);;
+*);;
+
+
+concept_A7VU_tank_body
+<-rolled_steel;
+<-the_forehead_of_the_body_20;
+<-hull_side_20;
+<-hull_feed_14;
+<-roof_14;;

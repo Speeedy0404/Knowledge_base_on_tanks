@@ -1,0 +1,43 @@
+concept_Krupp_M305<-sc_node_not_relation;;
+concept_Krupp_M305 => nrel_main_idtf: [двигатель Krupp M305](*<- lang_ru;;*);;
+concept_Krupp_M305 => nrel_main_idtf: [engine Krupp M305](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_Krupp_M305;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Двигатель Krupp M305 -  4-цилиндровый карбюраторный горизонтально-оппозитный, воздушного охлаждения с карбюратором Solex 40 JEP.](*<- lang_ru;;*);;
+	        -> [The Krupp M305 engine is a 4-cylinder carburetor horizontally opposed, air-cooled with a Solex 40 JEP carburetor.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(двигатель Krupp M305)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(engine Krupp M305)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_Krupp_M305;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [На танках PzKpfw I Ausf A использовались механические пятискоростные коробки передач ZF Aphon FG35, 
+            обеспечивавшие 5 скоростей движения вперед и 1 заднюю скорость. В технической документации экипажу рекомендовались 
+            следующие скоростные диапазоны: на первой передаче – до 5 км/ч, на второй – до 11, на третьей – до 20, на четвертой – 
+            до 32 и на пятой – до 42 км/ч.](*<- lang_ru;;*);;
+
+            -> [The PzKpfw I Ausf A tanks used mechanical five-speed ZF Aphon FG35 transmissions, which provided 5 forward speeds 
+            and 1 reverse speed. In the technical documentation, the crew was recommended the following speed ranges: in the first 
+            gear – up to 5 km/ h, in the second – up to 11, in the third – up to 20, in the fourth – up to 32 and in the fifth - up to 42 km/h.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(двигатель Krupp M305)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(engine Krupp M305)](*<- lang_en;;*);;
+*);;
+
+concept_Krupp_M305=>nrel_parameters:
+[4-цилиндровый];
+[Воздушного охлаждения];
+[Максимальную мощностью 57 л.с. при 2500 об/мин.];
+[Диаметр цилиндра 90 мм, ход поршня 130 мм];
+[Объем двигателя составлял 3460 см.куб.];;
+
+

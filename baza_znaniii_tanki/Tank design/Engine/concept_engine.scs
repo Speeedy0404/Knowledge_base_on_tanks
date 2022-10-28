@@ -1,0 +1,38 @@
+concept_engine<-sc_node_not_relation;;
+concept_engine => nrel_main_idtf: [двигатель](*<- lang_ru;;*);;
+concept_engine => nrel_main_idtf: [engine](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_engine;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Двигатель внутреннего сгорания, который предназначается для установки на танки; нередко танковые двигатели устанавливаются также на бронетранспортёрах и самоходных артиллерийских установках и т. п.](*<- lang_ru;;*);;
+	        -> [Internal combustion engine, which is intended for installation on tanks; often tank engines are also installed on armored personnel carriers and self-propelled artillery installations, etc.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(двигатель)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(engine)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_engine;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Основные требования к современному танковому двигателю — его компактность,
+             надёжность работы в разном климате, высокие энергетические показатели,
+              экономичность и многотопливность.До Второй мировой войны в качестве танковых, 
+              как правило, использовались автомобильные и адаптированные авиационные двигатели; 
+              к 1950-х годам они были полностью вытеснены моторами специальной разработки.](*<- lang_ru;;*);;
+            -> [The main requirements for a modern tank engine are its compactness, reliability 
+            of operation in different climates, high energy performance, efficiency and multi-fuel
+             capacity.Before the Second World War, automobile and adapted aircraft engines were 
+             usually used as tank engines; by the 1950s they were completely replaced by specially designed engines.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(двигатель)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(engine)](*<- lang_en;;*);;
+*);;
+
+concept_engine=>nrel_inclusion:concept_Daimler_engine;concept_Krupp_M305;;
+

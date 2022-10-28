@@ -1,0 +1,59 @@
+concept_light_tank<-sc_node_not_relation;;
+concept_light_tank => nrel_main_idtf: [лёгкий танк](*<- lang_ru;;*);;
+concept_light_tank=> nrel_main_idtf: [light tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_light_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Лёгкий танк - один из типов основного и специального по массе танка (боевой машины), танковых (бронетанковых) войск (сил) в вооружённых силах многих государств.](*<- lang_ru;;*);;
+	        -> [A light tank is one of the types of the main and special mass tank (combat vehicle), tank (armored) troops (forces) in the armed forces of many states.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(лёгкий танк)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(light tank](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_light_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Быстрый легкий танк был главной особенностью довоенного наращивания армии,
+             где ожидалось, что он будет использоваться для использования прорывов в тылу противника,
+              созданных более медленными и тяжелыми танками, с целью нарушения коммуникаций и линий снабжения.](*<- lang_ru;;*);;
+            -> [The fast light tank was a major feature of the pre-war army buildup,
+             where it was expected to be used to exploit breakthroughs behind enemy lines
+              created by slower and heavier tanks in order to disrupt communications and supply lines.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(лёгкий танк)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(light tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_light_tank=>nrel_inclusion:
+concept_LK_I_light_tank;
+concept_LK_II_light_tank;
+concept_PzKpfw_I_Ausf_A;
+concept_PzKpfw_II;;
+
+concept_light_tank=>nrel_functions:
+[Досмотр];
+[Бронированная разведка];
+[Перестрелки];
+[Артиллерийское наблюдение];
+[Дополняют десантные операции в роли огневой поддержки экспедиционных сил, где более крупные и тяжелые танки недоступны или испытывают трудности с безопасной или эффективной работой.];;
+
+
+
+
+
+
+
+
+
+
+

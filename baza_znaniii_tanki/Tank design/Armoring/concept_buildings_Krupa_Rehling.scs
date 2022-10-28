@@ -1,0 +1,53 @@
+concept_buildings_Krupa_Rehling<-sc_node_not_relation;;
+concept_buildings_Krupa_Rehling => nrel_main_idtf: [корпус «Крупа» и «Рёхлинг»](*<- lang_ru;;*);;
+concept_buildings_Krupa_Rehling => nrel_main_idtf: [building Krupa and Rehling](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_buildings_Krupa_Rehling;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Каждый борт "крупповского" корпуса собирался из пяти вертикальных листов,
+             крыша - из четырех продольных и одного поперечного, лобовая и кормовая части - 
+             из трех листов каждая. Корпуса фирмы "Рёхлинг" отличали цельные, из единого листа борта.](*<- lang_ru;;*);;
+            
+	        -> [Each side of the Krupp hull was assembled from five vertical sheets, the roof - 
+            from four longitudinal and one transverse, the frontal and aft parts - 
+            from three sheets each. The hulls of the company "Rehling" were distinguished by one-piece, from a single sheet of the side.](*<- lang_en;;*);;
+            
+        *);;
+    => nrel_main_idtf: [Опр.(корпус «Крупа» и «Рёхлинг»)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(building Krupa and Rehling)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_buildings_Krupa_Rehling;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Толщина и качество брони позволяли противостоять бронебойным винтовочным пулям 
+            (типа французской 7-мм АРХ) на дальностях от 5 м и больше, а также <b><sc_element sys_idtf="concept_shells">осколочно-фугасным снарядам</b>
+            легкой артиллерии. Бронестойкость корпуса несколько повышалась наклонной установкой
+            листов и "корабельной" формой лобовой и кормовой части. Уязвимыми местами были стыки бронелистов
+            из-за их плохой пригонки - прежде всего на углах.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The thickness and quality of the armor made it possible to resist armor-piercing
+             rifle bullets (such as the French 7-mm ARCH) at ranges of 5 m and more, as well as <b><sc_element sys_idtf="concept_shells">high-explosive shells</b>
+             of light artillery. The armor resistance of the hull was slightly increased by the inclined 
+             installation of sheets and the "ship" shape of the frontal and aft parts. The joints of the armor 
+             plates were vulnerable because of their poor fit - primarily at the corners.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(корпус «Крупа» и «Рёхлинг»)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(building Krupa and Rehling)](*<- lang_en;;*);;
+*);;
+
+
+
+concept_buildings_Krupa_Rehling
+<-rolled_steel;
+<-the_forehead_of_the_body_30;
+<-the_forehead_of_the_body_20_bottom;
+<-hull_feed_20;
+<-underbody_15;
+<-roof_15;;

@@ -1,0 +1,89 @@
+concept_LK_II_light_tank<-sc_node_not_relation;;
+concept_LK_II_light_tank => nrel_main_idtf: [легкий танк LK-II](*<- lang_ru;;*);;
+concept_LK_II_light_tank=> nrel_main_idtf: [LK-II light tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_LK_II_light_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [LK-II — лёгкий танк Германской империи в период Первой мировой войны. Конструктор - Фольмер.](*<- lang_ru;;*);;
+
+	        -> [LK-II was a light tank of the German Empire during the First World War. The designer is a Vollmer.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(легкий танк LK-II)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(LK-II light tank)](*<- lang_en;;*);;
+*);;
+
+concept_LK_II_light_tank<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(легкий танк LK-II)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_light_tanks/LK_II.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_LK_II_light_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Вскоре (после LK-I) началось проектирование танка LK-II. 13 июня были представлены модели LK-II и легкого танка Круппа. 
+            Оба проекта рекомендовали к дальнейшей разработке в пулеметном варианте с вращающейся башней. Чуть позже добавился и пушечный 
+            вариант LK-II. После того, как началась Амьенская операция союзников Крупп (хотя еще не был готов ни один реальный образец) 
+            получил срочный заказ на 65 танков. 2 октября в Мариенфельде были проведены испытания шасси конкурирующих машин. В результате 
+            заказ фирме "Крупп" аннулировали. Выбор пал на танк LK-II. Планировалось уже в декабре выпустить первые 10 машин, а с апреля 
+            919 года довести этот показатель до 200 в месяц. И лишь треть танков должна была быть пулеметными, а две трети пушечными.](*<- lang_ru;;*);;
+
+            -> [Soon (after LK-I), the design of the LK-II tank began. On June 13, the LK-II and Krupp light tank models were presented. 
+            Both projects were recommended for further development in a machine-gun version with a rotating turret. A little later, a 
+            cannon version of the LK-II was added. After the Allied Amiens operation began, Krupp (although no real sample was ready yet) 
+            received an urgent order for 65 tanks. On October 2, the chassis of competing cars was tested in Marienfeld. As a result, the 
+            order to Krupp was canceled. The choice fell on the LK-II tank. It was planned to release the first 10 cars in December, and 
+            from April 1919 to bring this figure to 200 per month. And only a third of the tanks had to be machine-gun, and two-thirds cannon.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(легкий танк LK-II)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(LK-II light tank)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_LK_II_light_tank;;
+    =>nrel_using_constants:{
+    	concept_LK_I_tank_body;
+        concept_chassis_LK_II
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка была такова: 
+                бронирование <b><sc_element sys_idtf="concept_LK_I_tank_body">(корпус танка LK-II)</b>,
+                вооружение(37-мм пушка "Крупп"),
+                двигатель(различные марки, 4-цилиндровый, карбюраторный, жидкостного охлаждения, мощность 50-60 л. с. при 1400-1500 об/мин.),
+                ходовая<b><sc_element sys_idtf="concept_chassis_LK_II">(ходовая часть LK-II)</b>](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank was as follows: 
+                armoring<b><sc_element sys_idtf="concept_LK_I_tank_body">(LK-II tank body)</b>,
+                armament(37 mm Krupp cannon),
+                engine(various brands, 4-cylinder, carburetor, liquid-cooled, power 50-60 hp at 1400-1500 rpm.),
+                running gear<b><sc_element sys_idtf="concept_chassis_LK_II">(chassis LK-II)</b>](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(легкий танк LK-II)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(LK-II light tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_LK_II_light_tank=>nrel_elements:
+concept_LK_I_tank_body;
+concept_chassis_LK_II;;
+
+concept_LK_II_light_tank
+<-weight_8_5_t;
+<-length_5_1;
+<-width_1_9;
+<-height_2_7;
+<-crew_3;
+<-speed_15_highway;;
+

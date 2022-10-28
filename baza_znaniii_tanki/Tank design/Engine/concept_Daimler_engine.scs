@@ -1,0 +1,37 @@
+concept_Daimler_engine<-sc_node_not_relation;;
+concept_Daimler_engine => nrel_main_idtf: [двигатель фирмы "Даймлер"](*<- lang_ru;;*);;
+concept_Daimler_engine => nrel_main_idtf: [engine Daimler firms](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_Daimler_engine;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Фирма "Даймлер" поставила двигатель мощностью 100 л.с. и снабжала ими строящиеся танки.](*<- lang_ru;;*);;
+	        -> [The Daimler company supplied a 100 hp engine and supplied tanks under construction with them.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(двигатель фирмы "Даймлер")](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(engine Daimler firms)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_Daimler_engine;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [В Германии решили применить двухдвигательную установку с работой каждого мотора на гусеницу одного борта.
+                Двигатели устанавливались параллельно, носками коленчатых валов к корме и крепились к раме каждый в трех точках.](*<- lang_ru;;*);;
+            -> [TIn Germany, they decided to use a twin-engine installation with each engine running on a single-side caterpillar.
+                The engines were installed in parallel, with the toes of the crankshafts to the stern and attached to the frame each at three points.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(двигатель фирмы "Даймлер")](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(engine Daimler firms)](*<- lang_en;;*);;
+*);;
+
+concept_Daimler_engine=>nrel_parameters:
+[4-цилиндровые];
+[Жидкостного охлаждения];
+[Рабочим объемом цилиндров 17 л];
+[Диаметром цилиндров 165 мм и рабочим ходом поршня 200 мм];
+[Расход бензина на 1 км пути составлял 4 - 7 л];;

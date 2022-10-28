@@ -1,0 +1,55 @@
+concept_medium_tank<-sc_node_not_relation;;
+concept_medium_tank => nrel_main_idtf: [средний танк](*<- lang_ru;;*);;
+concept_medium_tank=> nrel_main_idtf: [medium tank](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_medium_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Средний танк — тип основного и специального танка по массе, боевая машина танковых (автобронетанковых, бронетанковых, 
+            механизированных) войск (сил) в вооружённых силах многих государств. Средние танки стремятся быть пригодными для самых
+             разнообразных ролей, с меньшей зависимостью от других типов танков во время нормальной эксплуатации.](*<- lang_ru;;*);;
+	        -> [Medium tank is a type of main and special tank by weight, a combat vehicle of tank (armored, armored, mechanized) 
+            troops (forces) in the armed forces of many states. Medium tanks tend to be suitable for a wide variety of roles, with 
+            less dependence on other types of tanks during normal operation.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(средний танк)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(medium tank](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_medium_tank;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Средний танк характеризуется умеренной массой, рациональным сочетанием основных боевых свойств. Вооружён пушкой крупного калибра и пулемётами.](*<- lang_ru;;*);;
+            -> [The medium tank is characterized by a moderate weight, a rational combination of basic combat properties. Armed with a large caliber cannon and machine guns.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(средний танк)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(medium tank)](*<- lang_en;;*);;
+*);;
+
+
+concept_medium_tank=>nrel_inclusion:
+concept_PzKpfWg_III;;
+
+concept_medium_tank=>nrel_functions:
+[Прорыв сильно укреплённой оборонительной полосы противника.];
+[Противотанковые возможности];
+[Защита конструкций];;
+
+
+
+
+
+
+
+
+
+
+
+

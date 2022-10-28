@@ -1,0 +1,51 @@
+concept_chassis_A7VU<-sc_node_not_relation;;
+concept_chassis_A7VU => nrel_main_idtf: [ходовая часть А7VU](*<- lang_ru;;*);;
+concept_chassis_A7VU => nrel_main_idtf: [chassis A7VU](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_A7VU;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть А7VU - приобрела ромбовидную форму. Направляющие колеса и механизм натяжения гусениц 
+            теперь размещались над корпусом и были вынесены далеко вперед.](*<- lang_ru;;*);;
+
+	        -> [The chassis of the A7VU has acquired a diamond-shaped shape. The guide wheels and the track tension mechanism were now 
+            placed above the body and were carried far forward.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть А7VU)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis A7VU)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_A7VU;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Длина опорной поверхности уменьшилась, а общее количество <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> увеличилось.
+            Катки были сгруппированы по 4 штуки в три тележки по каждому борту, которые, в свою очередь, 
+            оснащались амортизацией на вертикальных пружинных рессорах. Ведущие колеса зубового зацепления 
+            располагались сзади и были слегка приподняты над землей. Верхние ролики отсутствовали, а гусеничную ветвь 
+            поддерживали рельсовые направляющие. Использовалось только по два "натяжных" колеса с каждого борта, жестко 
+            закрепленных сверху-сзади в месте излома гусеницы. Гусеничная цепь по конструкции осталась практически аналогичной танку A7V.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The length of the support surface has decreased, and the total number of <b><sc_element sys_idtf="concept_support_roller">support rollers</b> has increased.
+            The rollers were grouped into 4 pieces in three trolleys on each side, which, in turn, were equipped with shock 
+            absorption on vertical spring springs. The drive wheels of the gear engagement were located at the rear and were 
+            slightly raised above the ground. The upper rollers were missing, and the track branch was supported by rail guides.
+            Only two "tension" wheels were used from each side, rigidly fixed from above to behind at the point of the caterpillar break.
+            The track chain remained almost similar in design to the A7V tank.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть А7VU)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(chassis A7VU)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_A7VU
+<-width_shoe_500;
+<-[Шаг — 254 мм];
+<-[Количество траков составляло 48 штук];
+<-[Количество <b><sc_element sys_idtf="concept_support_roller">опорных катков</b> 24](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+
+

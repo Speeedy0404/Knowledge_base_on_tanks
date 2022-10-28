@@ -1,0 +1,53 @@
+concept_MG_08_machine_gun<-sc_node_not_relation;;
+concept_MG_08_machine_gun => nrel_main_idtf: [пулемет MG-08](*<- lang_ru;;*);;
+concept_MG_08_machine_gun => nrel_main_idtf: [MG-08 machine gun](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_MG_08_machine_gun;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [MG 08 (нем. Maschinengewehr 08) — 7,9-мм вариант станкового пулемёта Максима, 
+            выпускался в Германии с 1908 года и применялся в Первую мировую войну.](*<- lang_ru;;*);;
+
+	        -> [MG 08 (German Maschinengewehr 08) is a 7.9 mm version of the Maxim machine gun,
+             produced in Germany since 1908 and used in the First World War.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(пулемет MG-08)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(MG-08 machine gun)](*<- lang_en;;*);;
+*);;
+
+concept_MG_08_machine_gun<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(пулемет MG-08)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://images_of_termins/MG_08_machine_gun.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_MG_08_machine_gun;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [К началу Второй мировой войны MG 08 был уже устаревшим оружием, 
+            его применение в вермахте объяснялось только нехваткой более современных пулемётов.](*<- lang_ru;;*);;
+
+            -> [By the beginning of the Second World War, the MG 08 was already an outdated weapon, 
+            its use in the Wehrmacht was explained only by the lack of more modern machine guns.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(пулемет MG-08)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(MG-08 machine gun)](*<- lang_en;;*);;
+*);;
+
+concept_MG_08_machine_gun=>nrel_parameters:
+[Годы эксплуатации	1908—1945];
+weight_64_kg;
+length_721;
+[Калибр 7,9 мм];
+rate_fire_500_600;
+flight_speed_815;
+fireng_range_2400;;

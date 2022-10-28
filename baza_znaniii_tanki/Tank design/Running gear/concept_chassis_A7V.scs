@@ -1,0 +1,45 @@
+concept_chassis_A7V<-sc_node_not_relation;;
+concept_chassis_A7V => nrel_main_idtf: [ходовая часть А7V](*<- lang_ru;;*);;
+concept_chassis_A7V => nrel_main_idtf: [chassis A7V](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_A7V;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Ходовая часть А7V - траки гусениц делались сборными. Каждый трак состоял из <b><sc_element sys_idtf="concept_shoe">башмака</b> и рельса.](* <- lang_ru;; => nrel_format: format_html;; *);;
+	        -> [The chassis of the A7V - tracks tracks were made by teams. Each track consisted of a <b><sc_element sys_idtf="concept_shoe">shoe</b> and a rail.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Опр.(ходовая часть А7V)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(chassis A7V)](*<- lang_en;;*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chassis_A7V;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [<b><sc_element sys_idtf="concept_shoe">Башмак</b>, снабженный невысокими поперечными грунтозацепами, непосредственно ложился на грунт и служил как бы "шпалами" 
+            для рельса, по которому двигались <b><sc_element sys_idtf="concept_support_roller">опорные катки</b> с ребордами - некое подобие железнодорожного хода. Поршни на концах 
+            внутреннего рельса служили для соединения траков цилиндрическими пальцами (болтами) с надетыми на них втулками буксами.
+             С одного края <b><sc_element sys_idtf="concept_shoe">башмак</b> имел изогнутый отросток, прикрывавший шарнир от попадания грязи и камней при изгибе.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The <b><sc_element sys_idtf="concept_shoe">shoe</b>, equipped with low transverse ground hooks, lay directly on the ground and served as "sleepers" for the rail,
+             along which the <b><sc_element sys_idtf="concept_support_roller">support rollers </b> with ribs moved - a kind of railway course. The eyelets at the ends of the inner rail served 
+             to connect the tracks with cylindrical fingers (bolts) with bushings attached to them with axle boxes. From one edge, the <b><sc_element sys_idtf="concept_shoe">shoe</b>
+              had a curved process that covered the hinge from dirt and stones when bending.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(ходовая часть А7V)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(chassis A7V)](*<- lang_en;;*);;
+*);;
+
+concept_chassis_A7V
+<-width_shoe_500;
+<-width_rails_115;
+<-thickness_shoe_8;
+<-height_rails_115;
+<-[Рельс выполнялся из прессованной стали];
+<-[<b><sc_element sys_idtf="concept_shoe">Башмак</b> штамповался из мартеновской стали Сименса.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+

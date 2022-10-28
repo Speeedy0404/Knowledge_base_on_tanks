@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/group" idtf="concept_armoring" shapeColor="0" id="1755704523680" parent="1755629668208" left="0" top="0" right="149" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2689.55" y="516.748" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704534496" parent="1755629668208" x="2701.49" y="710.448" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1755704526800" parent="1755629668208" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2805.97" y="601.493" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700055872" parent="1755629668208" id_b="1755704523680" id_e="1755704534496" b_x="2689.55" b_y="516.748" e_x="2701.49" e_y="710.448" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700061872" parent="1755629668208" id_b="1755704526800" id_e="1755700055872" b_x="2805.97" b_y="601.493" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.402023">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие виды брони есть " shapeColor="0" id="1755629668208" parent="0" left="0" top="0" right="212" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="2598.51" y="471.642"/>
+                <point x="2962.69" y="479.104"/>
+                <point x="2967.16" y="777.612"/>
+                <point x="2608.96" y="777.612"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/group" idtf="concept_tank" shapeColor="0" id="1755704534080" parent="1755629668400" left="0" top="0" right="112" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2595.6" y="150.486" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704525760" parent="1755629668400" x="2593.41" y="318.681" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1755704533040" parent="1755629668400" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2680.22" y="242.857" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700060432" parent="1755629668400" id_b="1755704534080" id_e="1755704525760" b_x="2595.6" b_y="150.486" e_x="2593.41" e_y="318.681" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700060912" parent="1755629668400" id_b="1755704533040" id_e="1755700060432" b_x="2680.22" b_y="242.857" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.521973">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие танки вообще были" shapeColor="0" id="1755629668400" parent="0" left="0" top="0" right="235" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="2510.99" y="116.484"/>
+                <point x="2858.24" y="118.681"/>
+                <point x="2865.93" y="400"/>
+                <point x="2490.11" y="374.725"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/group" idtf="" shapeColor="0" id="1755704533248" parent="1755630125760" x="2163.38" y="685.915" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_gun_5_cm_KwK_39" shapeColor="0" id="1755704527008" parent="1755630125760" left="0" top="0" right="230" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2159.15" y="522.535" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700061632" parent="1755630125760" id_b="1755704533248" id_e="1755704527008" b_x="2163.38" b_y="685.915" e_x="2159.15" e_y="522.535" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие основные характеристики пушки 5cm Kwk 39" shapeColor="0" id="1755630125760" parent="0" left="0" top="0" right="442" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="2005.63" y="474.648"/>
+                <point x="2445.07" y="476.056"/>
+                <point x="2439.44" y="800"/>
+                <point x="2074.65" y="769.014"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/group" idtf="concept_cannon" shapeColor="0" id="1755704527216" parent="1755630124608" left="0" top="0" right="136" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2073.61" y="158.333" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1755704526384" parent="1755630124608" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="2191.67" y="234.722" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704533664" parent="1755630124608" x="2073.61" y="308.333" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700058512" parent="1755630124608" id_b="1755704527216" id_e="1755704533664" b_x="2073.61" b_y="158.333" e_x="2073.61" e_y="308.333" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700062352" parent="1755630124608" id_b="1755704526384" id_e="1755700058512" b_x="2191.67" b_y="234.722" e_x="-23.6111" e_y="-11.1111" dotBBalance="0" dotEBalance="0.510567">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие орудия есть" shapeColor="0" id="1755630124608" parent="0" left="0" top="0" right="165" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="1929.17" y="119.444"/>
+                <point x="2334.72" y="122.222"/>
+                <point x="2336.11" y="384.722"/>
+                <point x="1915.28" y="377.778"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704553216" parent="1755706581440" x="1486" y="687" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_period" shapeColor="0" id="1755704530544" parent="1755706581440" left="0" top="0" right="96" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1621" y="609" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_tank_building_in_the_First_World_War" shapeColor="0" id="1755704552800" parent="1755706581440" left="0" top="0" right="376" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1483" y="535" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700058272" parent="1755706581440" id_b="1755704552800" id_e="1755704553216" b_x="1483" b_y="535" e_x="1486" e_y="687" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700058752" parent="1755706581440" id_b="1755704530544" id_e="1755700058272" b_x="1621" b_y="609" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.477379">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какой следующий период после первой мировой войны" shapeColor="0" id="1755706581440" parent="0" left="0" top="0" right="475" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="1348" y="507"/>
+                <point x="1876" y="500"/>
+                <point x="1861" y="775"/>
+                <point x="1420" y="767"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1755704550720" parent="1755706581248" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1566.5" y="246.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="period" shapeColor="0" id="1755704551136" parent="1755706581248" left="0" top="0" right="57" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1464" y="174" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704552384" parent="1755706581248" x="1469" y="318" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700059712" parent="1755706581248" id_b="1755704551136" id_e="1755704552384" b_x="1464" b_y="174" e_x="1469" e_y="318" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700057552" parent="1755706581248" id_b="1755704550720" id_e="1755700059712" b_x="1566.5" b_y="246.5" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.511204">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие периоды танкостроения есть" shapeColor="0" id="1755706581248" parent="0" left="0" top="0" right="318" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="1269" y="124"/>
+                <point x="1697" y="125"/>
+                <point x="1698" y="382"/>
+                <point x="1277" y="379"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704549888" parent="1755706582208" x="801" y="691" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_the_pre_war_period" shapeColor="0" id="1755704555504" parent="1755706582208" left="0" top="0" right="232" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="799" y="569" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_the_technique_used" shapeColor="0" id="1755704550512" parent="1755706582208" left="0" top="0" right="202" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="904" y="636" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700061152" parent="1755706582208" id_b="1755704555504" id_e="1755704549888" b_x="799" b_y="569" e_x="801" e_y="691" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700061392" parent="1755706582208" id_b="1755704550512" id_e="1755700061152" b_x="904" b_y="636" e_x="0" e_y="-1" dotBBalance="0" dotEBalance="0.557028">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какую технику спроектировали в предвоенный период" shapeColor="0" id="1755706582208" parent="0" left="0" top="0" right="474" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="711" y="534"/>
+                <point x="1203" y="532"/>
+                <point x="1211" y="791"/>
+                <point x="714" y="792"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/relation" idtf="nrel_elements" shapeColor="0" id="1755704554672" parent="1755706580480" left="0" top="0" right="116" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="935" y="273" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_PzKpfWg_III" shapeColor="0" id="1755704536784" parent="1755706580480" left="0" top="0" right="173" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="852" y="197" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704537408" parent="1755706580480" x="852" y="374" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700057792" parent="1755706580480" id_b="1755704536784" id_e="1755704537408" b_x="852" b_y="197" e_x="852" e_y="374" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700058032" parent="1755706580480" id_b="1755704554672" id_e="1755700057792" b_x="935" b_y="273" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.420886">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие компоненты у танка PzKpfWg3" shapeColor="0" id="1755706580480" parent="0" left="0" top="0" right="324" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="722" y="132"/>
+                <point x="1131" y="132"/>
+                <point x="1135" y="426"/>
+                <point x="722" y="424"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/group" idtf="concept_light_tank" shapeColor="0" id="1755704545104" parent="1755706580672" left="0" top="0" right="153" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="272" y="574" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1755704546144" parent="1755706580672" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="396" y="635" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704545312" parent="1755706580672" x="273" y="689" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755700055152" parent="1755706580672" id_b="1755704546144" id_e="1755700055632" b_x="396" b_y="635" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.536265">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755700055632" parent="1755706580672" id_b="1755704545104" id_e="1755704545312" b_x="272" b_y="574" e_x="273" e_y="689" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие лёгкие танки есть" shapeColor="0" id="1755706580672" parent="0" left="0" top="0" right="221" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="113" y="525"/>
+                <point x="608" y="526"/>
+                <point x="605" y="786"/>
+                <point x="117" y="786"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/relation" idtf="nrel_inclusion" shapeColor="0" id="1755704548016" parent="1755706580288" left="0" top="0" right="117" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="314" y="263" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="concept_classification_of_tanks" shapeColor="0" id="1755704537824" parent="1755706580288" left="0" top="0" right="252" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="232" y="240" haveBus="false" idtf_pos="3">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="1755704543856" parent="1755706580288" x="231" y="352" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="1755628405152" parent="1755706580288" id_b="1755704537824" id_e="1755704543856" b_x="232" b_y="240" e_x="231" e_y="352" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="1755628407072" parent="1755706580288" id_b="1755704548016" id_e="1755628405152" b_x="314" b_y="263" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.41365">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Какие типы танков существуют" shapeColor="0" id="1755706580288" parent="0" left="0" top="0" right="293" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="0" idtf_pos_y="0">
+            <points>
+                <point x="108" y="128"/>
+                <point x="613" y="128"/>
+                <point x="619" y="456"/>
+                <point x="112" y="454"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

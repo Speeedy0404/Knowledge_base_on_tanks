@@ -1,0 +1,35 @@
+concept_german_tank_building<-sc_node_not_relation;;
+concept_german_tank_building => nrel_main_idtf: [германское танкостроение](*<- lang_ru;;*);;
+concept_german_tank_building => nrel_main_idtf: [german tank building](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_german_tank_building;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Германское танкостроение - подробные материалы о развитии бронетанковых войск в Германии.](*<- lang_ru;;*);;
+	        -> [German Tank Building - contains detailed materials on the development of armored troops in Germany.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(германское танкостроение)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(german tank building](*<- lang_en;;*);;
+*);;
+
+
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_german_tank_building;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Танкостроение содержит информацию о разных типах техники, их строению и вооружению.](*<- lang_ru;;*);;
+            -> [Tank building contains information about different types of equipment, their structure and armament.](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(германское танкостроение)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(german tank building)](*<- lang_en;;*);;
+*);;
+
+concept_german_tank_building=>nrel_inclusion:
+concept_tank;
+concept_tank_design;
+concept_history_of_german_tank_building;;

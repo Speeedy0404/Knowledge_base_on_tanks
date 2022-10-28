@@ -1,0 +1,54 @@
+concept_tank_design<-sc_node_not_relation;;
+concept_tank_design => nrel_main_idtf: [конструкция танка](*<- lang_ru;;*);;
+concept_tank_design => nrel_main_idtf: [tank design](*<- lang_en;;*);;
+
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_tank_design;;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка — совокупность технических (конструктивных) решений и инженерных узлов, определяющая тактико-технические и эксплуатационные характеристики танка.](*<- lang_ru;;*);;
+	        -> [Tank design — a set of technical (constructive) solutions and engineering components that determine the tactical, technical and operational characteristics of the tank](*<- lang_en;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(конструкция танка)](*<- lang_ru;;*);;
+    => nrel_main_idtf: [Def.(tank design)](*<- lang_en;;*);;
+*);;
+
+concept_tank_design<-rrel_key_sc_element:...(*
+	<-illustration;;
+	=>nrel_main_idtf:[Изобр.(конструкция танка)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+    	->rrel_example:
+		"file://construction/construction.jpg"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_tank_design;;
+     =>nrel_using_constants:{
+    	concept_cannon;
+        concept_engine;
+        concept_running_gear;
+        concept_armoring
+	};;
+    <= nrel_sc_text_translation:...
+        (*
+            -> [Конструкция танка проектируется таким образом, чтобы обеспечивать оптимальный для выполнения 
+            его задач баланс четырёх основных составляющих танка — <b><sc_element sys_idtf="concept_cannon">орудие</b>, 
+            <b><sc_element sys_idtf="concept_engine">двигатель</b> ,<b><sc_element sys_idtf="concept_running_gear">ходовая</b> 
+            и <b><sc_element sys_idtf="concept_armoring">броня</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+
+            -> [The design of the tank is designed in such a way as to ensure an optimal balance of the four main components of 
+            the tank — <b><sc_element sys_idtf="concept_cannon">cannon</b>, 
+            <b><sc_element sys_idtf="concept_engine">engine</b> ,<b><sc_element sys_idtf="concept_running_gear">running gear</b> 
+            and <b><sc_element sys_idtf="concept_armoring">armor</b>.](* <- lang_en;; => nrel_format: format_html;; *);;
+        *);;
+    => nrel_main_idtf: [Утв.(конструкция танка)](*<- lang_ru;;*);;
+ => nrel_main_idtf: [St.(tank design)](*<- lang_en;;*);;
+*);;
+
+concept_tank_design=>nrel_inclusion:concept_cannon;concept_engine;
+concept_running_gear;concept_armoring;;
